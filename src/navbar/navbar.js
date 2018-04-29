@@ -6,10 +6,7 @@ class navbar extends Component {
     return (
       <ul>
         <li>
-          <a href="contact#">Contact</a>
-        </li>
-        <li>
-          <a href="about#">About</a>
+          <a href="">Giorgio Grassini</a>
         </li>
       </ul>
     );

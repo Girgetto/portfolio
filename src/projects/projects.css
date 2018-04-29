@@ -8,11 +8,8 @@
      width: 2000px;
      height: 150px;
      background-color: grey;
-     border-radius: 100%;
-     box-shadow: 10px 10px 5px grey;
  }
 
  .frame{
      height: 100%;
-     border-radius: 100%;
  }
