@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-image: url("./img/background.JPG");
+  background-image: url("https://c1.staticflickr.com/4/3882/14784752162_1945a8dbd1_b.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 600px;
@@ -15,7 +15,7 @@
 }
 
 .App-title {
-  font-size: 2.5em;
+  font-size: 3.5em;
   margin: 0 auto;
   padding-top: 17%;
 }
