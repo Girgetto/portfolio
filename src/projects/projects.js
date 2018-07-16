@@ -18,7 +18,7 @@ class projects extends Component {
               </a>
             </div>
             <div class="flex-item">
-              <a href="https://looglee.herokuapp.com">
+              <a href="https://loogleee.herokuapp.com">
                 <img class="frame" src={loogle} alt="img" />
               </a>
             </div>
