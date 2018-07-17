@@ -2,24 +2,19 @@
   text-align: center;
 }
 
-.App-header {
-  background-image: url("https://c1.staticflickr.com/4/3882/14784752162_1945a8dbd1_b.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  height: 600px;
-  color: white;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .App-title {
   font-size: 3.5em;
   margin: 0 auto;
-  padding-top: 17%;
+  padding-top: 1%;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.profile-logo{
+  margin: 0 auto;
+  width: 7%;
+  margin-top: 5%;
+  border-radius: 100%;
 }

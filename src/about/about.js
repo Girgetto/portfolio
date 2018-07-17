@@ -1,12 +1,10 @@
 import React,{ Component } from "react";
-import logo from '../img/profile.JPG';
 import "./about.css";
 
 class about extends Component {
   render() {  
     return (
       <div>
-        <img src={logo} className="profile-logo" alt="logo" />
         <h1>About me</h1>
         <p>
           I'm a big fan of the world of programming and technology. I put all of
