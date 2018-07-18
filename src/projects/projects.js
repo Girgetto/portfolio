@@ -9,8 +9,8 @@ class projects extends Component {
   render() {
     return (
       <div>
+        <h1>Projects</h1>
         <div class="row">
-          <h1>Projects</h1>
           <div class="flex-container">
             <div class="flex-item">
               <a href="https://girgetto.github.io/IronSpace/index.html">
