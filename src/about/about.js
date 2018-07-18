@@ -17,22 +17,22 @@ class about extends Component {
           where I work as TA.
         </p>
         <h1>Contact</h1>
-        <a href="">
+        <a href="https://twitter.com/__Giorgio_">
           <i class="fab fa-twitter-square fa-2x" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/giorgio-grassini-458023150/">
           <i class="fab fa-linkedin fa-2x" />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/ggrassini">
           <i class="fab fa-facebook fa-2x" />
         </a>
-        <a href="">
+        <a href="https://plus.google.com/u/0/112911520666250234745">
           <i class="fab fa-google-plus-square fa-2x" />
         </a>
-        <a href="">
+        <a href="https://github.com/Girgetto">
           <i class="fab fa-github-square fa-2x" />
         </a>
-        <a href="">
+        <a href="giorgiograssini@gmail.com">
           <i class="fas fa-envelope-square fa-2x" />
         </a>
       </div>
