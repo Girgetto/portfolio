@@ -1,0 +1,15 @@
+#header{
+    height:$header-height;
+    background: $dark-grey;
+    color: $white;
+    @extend %fixed-element;
+    .logo {
+        img {
+            width: 40px;
+        }
+    }
+    .column-wrapper {
+        @extend %v-center;
+        height: 100%;
+    }
+}
