@@ -13,7 +13,7 @@ class about extends Component {
           teammates. I began to study the basics of programming from high
           school, I continued my studies at the University of Florence and at
           the same time I was working for Hotel Villa Casalecchi as IT. Moved to
-          Madrid in 2017 to increase my knowledges in programming in IronHack
+          Madrid in 2017 to increase my knowledges in programming at IronHack
           where I work as TA.
         </p>
         <h1>Contact</h1>
@@ -32,7 +32,7 @@ class about extends Component {
         <a href="https://github.com/Girgetto">
           <i class="fab fa-github-square fa-2x" />
         </a>
-        <a href="giorgiograssini@gmail.com">
+        <a href="mailto:giorgiograssini@gmail.com">
           <i class="fas fa-envelope-square fa-2x" />
         </a>
       </div>

@@ -3,11 +3,9 @@
     flex-direction: row;
  }
 
- .flex-item{
-     margin: 3%;
-     width: 2000px;
-     height: 150px;
-     background-color: grey;
+ .col-4{
+     width: 50%;
+     height: 6em;
  }
 
  .frame{
