@@ -30,3 +30,14 @@ function fadeOut(el){
 fadeOut(el);
 fadeIn(el);
 fadeIn(el);
+
+setInterval((()=>{
+  axios.get('https://giorgiograssini-portfolio.herokuapp.com/')
+  .then( (response) =>{
+    
+  })
+  .catch(function (err) {
+    console.log(err);
+  });  
+
+}),1000)
