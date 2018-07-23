@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import "./footer.css";
 
+let date = new Date();
+let year = date.getFullYear();
+
 class footer extends Component {
   render() {
     return (
       <footer>
         <p>
-          © Copyright 2018 Giorgio Grassini
+          © Copyright {year} Giorgio Grassini
         </p>
       </footer>
     );
