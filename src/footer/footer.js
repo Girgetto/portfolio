@@ -5,10 +5,12 @@ class footer extends Component {
   render() {
     return (
       <footer>
-        <p>© Copyright 2018 Giorgio Grassini</p>
+        <p>
+          © Copyright 2018 Giorgio Grassini
+        </p>
       </footer>
     );
   }
 }
 
-export default footer
+export default footer;
