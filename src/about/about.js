@@ -16,7 +16,6 @@ class about extends Component {
           Madrid in 2017 to increase my knowledges in programming at IronHack
           where I work as TA.
         </p>
-        <h1>Contact</h1>
         <a href="https://twitter.com/__Giorgio_">
           <i class="fab fa-twitter-square fa-2x" />
         </a>
