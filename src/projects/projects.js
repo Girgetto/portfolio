@@ -17,10 +17,10 @@ class projects extends Component {
           </div>
           <div class="col-6">
             <p>
-              The game's goal is to direct the spaceship <span>🚀</span> to the target (the
-              Ironhack logo) without hitting the planets, but be careful! , the
-              movements can be modified by the gravitational force of the
-              planets!
+              The game's goal is to direct the spaceship <span>🚀</span> to the
+              target (the Ironhack logo) without hitting the planets, but be
+              careful! , the movements can be modified by the gravitational
+              force of the planets!
             </p>
             <a
               class="github-button"
@@ -40,7 +40,10 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
-            <p>Application created to find and evaluate public toilets <span>🚽</span></p>
+            <p>
+              Application created to find and evaluate public toilets
+              <span>🚽</span>
+            </p>
             <a
               class="github-button"
               href="https://github.com/giorgioxarlie/myAdvisor"
@@ -59,7 +62,10 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
-            <p>Application to learn English by chatting with a bot <span>🤖</span></p> 
+            <p>
+              Application to learn English by chatting with a bot
+              <span>🤖</span>
+            </p>
             <a
               class="github-button"
               href="https://github.com/LanguageChatBot/LanguageChatbot"
