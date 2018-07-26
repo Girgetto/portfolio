@@ -21,3 +21,8 @@
      margin-left: 0px;
      padding-left: 0px;
  }
+
+ .github-button{
+     border:5px solid black;
+    background-color:rgb(107, 155, 173) !important;
+ }
