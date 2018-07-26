@@ -1,6 +1,6 @@
 setInterval(function() {
   axios
-  .get("http://localhost:3000/")
+  .get("https://giorgiograssini-portfolio.herokuapp.com/")
   .then(function(response) {
     console.log(response);
   })
