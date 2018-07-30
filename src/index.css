@@ -29,7 +29,7 @@ a{
   padding-bottom: 30px;
 }
 
-@media (max-width:375px){
+@media (max-width:420px){
 
   body{
     margin: 0 auto;
@@ -44,16 +44,23 @@ a{
   }
 
   .container{
-    width: 375px;
-    margin: 10px;
+   width: 100%;
   }
 
   svg{
     margin: 0;
   }
 
-  .prfile-logo{
-    border-radius: 0%;
+  .profile-logo{
+    width: 50% !important;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  a{
+    margin: 0 auto;
   }
 
 }
