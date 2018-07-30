@@ -28,3 +28,32 @@ a{
 #about{
   padding-bottom: 30px;
 }
+
+@media (max-width:375px){
+
+  body{
+    margin: 0 auto;
+  }
+
+  .Title-description{
+    width: 375px;
+  }
+
+  p{
+    width: 375px;
+  }
+
+  .container{
+    width: 375px;
+    margin: 10px;
+  }
+
+  svg{
+    margin: 0;
+  }
+
+  .prfile-logo{
+    border-radius: 0%;
+  }
+
+}
