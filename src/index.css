@@ -30,11 +30,16 @@ a{
 }
 
 @media (max-width:420px){
-
-  body{
-    margin: 0 auto;
+  
+  .container{
+   width: 400px;
   }
 
+  .column-wrapper{
+    height: 350px;
+    text-align: center;
+  }
+  
   .Title-description{
     width: 375px;
   }
@@ -42,10 +47,7 @@ a{
   p{
     width: 375px;
   }
-
-  .container{
-   width: 100%;
-  }
+  
 
   svg{
     margin: 0;
