@@ -8,7 +8,7 @@ class projects extends Component {
   render() {
     return (
       <div>
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://girgetto.github.io/IronSpace/index.html">
@@ -18,10 +18,22 @@ class projects extends Component {
           <div class="col-6">
             <p>
               The game's goal is to direct the spaceship <span>🚀</span> to the
-              target (the Ironhack logo) without hitting the planets, but be
-              careful! , the movements can be modified by the gravitational
-              force of the planets!
+              target without hitting the planets!
             </p>
+            <ul class="icons">
+              <li>
+                <i class="devicon-html5-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-css3-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-javascript-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-git-plain colored" />
+              </li>
+            </ul>
             <a
               class="github-button"
               href="https://github.com/Girgetto/IronSpace"
@@ -43,6 +55,32 @@ class projects extends Component {
             <p>
               Application created to find and evaluate public toilets
               <span>🚽</span>
+              <ul class="icons">
+                <li>
+                  <i class="devicon-html5-plain colored" />
+                </li>
+                <li>
+                  <i class="devicon-css3-plain colored" />
+                </li>
+                <li>
+                  <i class="devicon-javascript-plain colored" />
+                </li>
+                <li>
+                  <i class="devicon-jquery-plain-wordmark colored" />
+                </li>
+                <li>
+                  <i class="devicon-nodejs-plain colored" />
+                </li>
+                <li>
+                  <i class="devicon-express-original colored" />
+                </li>
+                <li>
+                  <i class="devicon-mongodb-plain-wordmark colored" />
+                </li>
+                <li>
+                  <i class="devicon-git-plain colored" />
+                </li>
+              </ul>
             </p>
             <a
               class="github-button"
@@ -66,6 +104,35 @@ class projects extends Component {
               Application to learn English by chatting with a bot
               <span>🤖</span>
             </p>
+            <ul class="icons">
+              <li>
+                <i class="devicon-html5-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-css3-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-javascript-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-jquery-plain-wordmark colored" />
+              </li>
+              <li>
+                <i class="devicon-nodejs-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-express-original colored" />
+              </li>
+              <li>
+                <i class="devicon-mongodb-plain-wordmark colored" />
+              </li>
+              <li>
+                <i class="devicon-angularjs-plain colored" />
+              </li>
+              <li>
+                <i class="devicon-git-plain colored" />
+              </li>
+            </ul>
             <a
               class="github-button"
               href="https://github.com/LanguageChatBot/LanguageChatbot"

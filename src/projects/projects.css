@@ -27,3 +27,10 @@
     background-color:rgb(107, 155, 173) !important;
  }
 
+.icons>li{
+    width: 10px;
+    float: left;
+    height: 50px;
+    margin:0 auto;
+    /* margin-top: 0.1em; */
+}
