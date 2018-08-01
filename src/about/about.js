@@ -16,6 +16,19 @@ class about extends Component {
           Madrid in 2017 to increase my knowledges in programming at IronHack
           where I work as TA.
         </p>
+        <ul><h2>Tools</h2>
+            <li><i class="devicon-html5-plain colored"></i></li>
+            <li><i class="devicon-css3-plain colored"></i></li>
+            <li><i class="devicon-javascript-plain colored"></i></li>
+            <li><i class="devicon-jquery-plain-wordmark colored"></i></li>
+            <li><i class="devicon-nodejs-plain colored"></i></li>
+            <li><i class="devicon-express-original colored"></i></li>
+            <li><i class="devicon-mongodb-plain-wordmark colored"></i></li>
+            <li><i class="devicon-bootstrap-plain colored"></i></li>
+            <li><i class="devicon-angularjs-plain colored"></i></li>
+            <li><i class="devicon-git-plain colored"></i></li>
+          </ul>
+        <h2>Contacts</h2>
         <a href="https://twitter.com/__Giorgio_">
           <i class="fab fa-twitter-square fa-2x" />
         </a>

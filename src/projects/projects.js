@@ -8,7 +8,7 @@ class projects extends Component {
   render() {
     return (
       <div>
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://girgetto.github.io/IronSpace/index.html">
