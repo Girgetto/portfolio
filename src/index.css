@@ -64,5 +64,14 @@ a{
   a{
     margin: 0 auto;
   }
+  ul.icons{
+    margin-left: 25%;
+  }
 
+}
+
+@media (max-width:768px){
+  .profile-logo{
+    width: 20% !important;
+  }
 }

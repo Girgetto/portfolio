@@ -9,6 +9,7 @@ class projects extends Component {
     return (
       <div>
         <h1>Projects</h1>
+        <h2>IronSpace</h2>
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://girgetto.github.io/IronSpace/index.html">
@@ -45,6 +46,7 @@ class projects extends Component {
             </a>
           </div>
         </div>
+        <h2>Loogle</h2>
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://loogleee.herokuapp.com">
@@ -93,6 +95,7 @@ class projects extends Component {
             </a>
           </div>
         </div>
+        <h2>languinator</h2>
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://languinator.herokuapp.com">
