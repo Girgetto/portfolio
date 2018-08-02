@@ -6,17 +6,33 @@ body {
   font-family: 'roboto', sans-serif;
 }
 
+p{
+  line-height: 1.7;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+}
+
 h2{
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   font-size: 20px;
   font-weight: 300;
   color: #aaa;
   padding-bottom: 10px;
-  border-bottom:1px solid #aaa;
+  border-bottom:1px solid #eee;
 }
 
 a{
   color: rgb(107, 155, 173);
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .container {

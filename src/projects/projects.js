@@ -8,8 +8,7 @@ class projects extends Component {
   render() {
     return (
       <div>
-        <h1>Projects</h1>
-        <h2>IronSpace</h2>
+        <h3>Projects</h3>
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://girgetto.github.io/IronSpace/index.html">
@@ -17,6 +16,18 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
+            <h2>
+              IronSpace{" "}
+              <a
+                class="github-button"
+                href="https://github.com/Girgetto/IronSpace"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Star Girgetto/IronSpace on GitHub"
+              >
+                Star
+              </a>
+            </h2>
             <p>
               The game's goal is to direct the spaceship <span>🚀</span> to the
               target without hitting the planets!
@@ -35,18 +46,9 @@ class projects extends Component {
                 <i class="devicon-git-plain colored" />
               </li>
             </ul>
-            <a
-              class="github-button"
-              href="https://github.com/Girgetto/IronSpace"
-              data-size="large"
-              data-show-count="true"
-              aria-label="Star Girgetto/IronSpace on GitHub"
-            >
-              Star
-            </a>
           </div>
         </div>
-        <h2>Loogle</h2>
+
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://loogleee.herokuapp.com">
@@ -54,6 +56,18 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
+            <h2>
+              Loogle{" "}
+              <a
+                class="github-button"
+                href="https://github.com/giorgioxarlie/myAdvisor"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Star Girgetto/LanguageChatbot on GitHub"
+              >
+                Star
+              </a>
+            </h2>
             <p>
               Application created to find and evaluate public toilets
               <span>🚽</span>
@@ -84,18 +98,9 @@ class projects extends Component {
                 </li>
               </ul>
             </p>
-            <a
-              class="github-button"
-              href="https://github.com/giorgioxarlie/myAdvisor"
-              data-size="large"
-              data-show-count="true"
-              aria-label="Star Girgetto/LanguageChatbot on GitHub"
-            >
-              Star
-            </a>
           </div>
         </div>
-        <h2>languinator</h2>
+
         <div class="column-wrapper">
           <div class="col-6">
             <a href="https://languinator.herokuapp.com">
@@ -103,6 +108,18 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
+            <h2>
+              languinator{" "}
+              <a
+                class="github-button"
+                href="https://github.com/LanguageChatBot/LanguageChatbot"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Star Girgetto/LanguageChatbot on GitHub"
+              >
+                Star
+              </a>
+            </h2>
             <p>
               Application to learn English by chatting with a bot
               <span>🤖</span>
@@ -136,15 +153,6 @@ class projects extends Component {
                 <i class="devicon-git-plain colored" />
               </li>
             </ul>
-            <a
-              class="github-button"
-              href="https://github.com/LanguageChatBot/LanguageChatbot"
-              data-size="large"
-              data-show-count="true"
-              aria-label="Star Girgetto/LanguageChatbot on GitHub"
-            >
-              Star
-            </a>
           </div>
         </div>
       </div>
