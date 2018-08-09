@@ -23,8 +23,9 @@
  }
 
  .github-button{
-     border:5px solid black;
     background-color:rgb(107, 155, 173) !important;
+    vertical-align: bottom !important;
+    margin: 30px;
  }
 
 .icons>li{
