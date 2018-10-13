@@ -1,0 +1,14 @@
+.alert-message {
+    margin: 25px 0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:$code-font;
+    color:$code-color;
+    background: $extra-light-grey;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    a {
+        font-size: .6em;
+    }
+}
