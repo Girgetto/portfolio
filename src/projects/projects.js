@@ -16,8 +16,8 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
-            <h2>
-              IronSpace{" "}
+            <div class="project-title">
+              <h2>IronSpace </h2>
               <a
                 class="github-button"
                 href="https://github.com/Girgetto/IronSpace"
@@ -27,7 +27,7 @@ class projects extends Component {
               >
                 Star
               </a>
-            </h2>
+            </div>
             <p>
               The game's goal is to direct the spaceship <span>🚀</span> to the
               target without hitting the planets!
@@ -42,8 +42,8 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
-            <h2>
-              Loogle{" "}
+            <div class="project-title">
+              <h2>Loogle </h2>
               <a
                 class="github-button"
                 href="https://github.com/giorgioxarlie/myAdvisor"
@@ -53,7 +53,7 @@ class projects extends Component {
               >
                 Star
               </a>
-            </h2>
+            </div>
             <p>
               Application created to find and evaluate public toilets
               <span>🚽</span>
@@ -68,8 +68,8 @@ class projects extends Component {
             </a>
           </div>
           <div class="col-6">
-            <h2>
-              languinator{" "}
+            <div class="project-title">
+              <h2>languinator </h2>
               <a
                 class="github-button"
                 href="https://github.com/LanguageChatBot/LanguageChatbot"
@@ -79,7 +79,7 @@ class projects extends Component {
               >
                 Star
               </a>
-            </h2>
+            </div>
             <p>
               Application to learn English by chatting with a bot
               <span>🤖</span>

@@ -48,3 +48,14 @@
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
 }
+
+.project-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid #eee;
+}
+
+h2 {
+    padding: 1rem;
+}
