@@ -1,7 +1,8 @@
 import React from 'react';
+import './project.css';
 
 const project = props => (
-      <div className="container">
+      <div className="container slide-fwd-center">
         <div className="column-wrapper">
           <div className="col-6">
             <a href={props.siteUrl} target='_blank'>

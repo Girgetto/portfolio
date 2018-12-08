@@ -11,7 +11,7 @@ const about  = () => (
           teammates. I began to study the basics of programming from high
           school, I continued my studies at the University of Florence and at
           the same time I was working for <a href="http://www.hotelvillacasalecchi.com">Hotel Villa Casalecchi</a> as IT. Moved to
-          Madrid in 2017 to increase my knowledges in programming at <a href="https://www.ironhack.com">IronHack</a> where I work as TA.
+          Madrid in 2017 to increase my knowledge in programming at <a href="https://www.ironhack.com">IronHack</a> where I work as TA.
         </p>
         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/__Giorgio_">
           <i className="fab fa-twitter-square fa-2x" />
