@@ -1,0 +1,30 @@
+[
+  {
+    "name":"IronSpace",
+    "githubUrl":"https://github.com/Girgetto/IronSpace",
+    "siteUrl":"https://girgetto.github.io/IronSpace/index.html",
+    "description":"The game's goal is to direct the spaceship 🚀 to the target without hitting the planets!",
+    "img":"ironSpace"
+  },
+  {
+    "name": "Loogle",
+    "githubUrl":"https://github.com/giorgioxarlie/myAdvisor",
+    "siteUrl":"https://loogleee.herokuapp.com",
+    "description":"Application created to find and evaluate public toilets 🚽",
+    "img":"loogle"
+  },
+  {
+    "name":"Languinator",
+    "githubUrl":"https://github.com/Girgetto/IronSpace",
+    "siteUrl":"https://languinator.herokuapp.com",
+    "description": "Application to learn English by chatting with a bot 🤖",
+    "img":"languinator"
+  },
+  {
+    "name":"Squad Converter",
+    "githubUrl":"https://github.com/Girgetto/squad-converter",
+    "siteUrl":"",
+    "description":"Project created for IronHack",
+    "img":"squad-converter"
+  }
+]

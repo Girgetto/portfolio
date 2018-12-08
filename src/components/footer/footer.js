@@ -7,7 +7,7 @@ let year = date.getFullYear();
 class footer extends Component {
   render() {
     return (
-      <footer>
+      <footer className='container' style={{marginTop:'1rem',paddingTop:'1rem',borderTop:'1px solid #eee'}}>
         <p>
           © Copyright {year} Giorgio Grassini
         </p>
