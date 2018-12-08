@@ -1,6 +1,6 @@
 import './projects.css';
 import projectsArr from '../../projects.json';
-import Project from '../project/project';
+import Project from '../project/project.jsx';
 import React from 'react';
 
 const projects = () => (
