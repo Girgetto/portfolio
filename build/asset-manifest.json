@@ -1,10 +1,12 @@
 {
-  "main.css": "static/css/main.efa171ad.css",
-  "main.css.map": "static/css/main.efa171ad.css.map",
-  "main.js": "static/js/main.6321abd0.js",
-  "main.js.map": "static/js/main.6321abd0.js.map",
+  "main.css": "static/css/main.e19ebfcf.css",
+  "main.css.map": "static/css/main.e19ebfcf.css.map",
+  "main.js": "static/js/main.94937064.js",
+  "main.js.map": "static/js/main.94937064.js.map",
   "static/media/ironSpace.png": "static/media/ironSpace.52c62b06.png",
   "static/media/languinator.png": "static/media/languinator.8efcceb6.png",
   "static/media/loogle.png": "static/media/loogle.af739c68.png",
-  "static/media/profile.png": "static/media/profile.07f3189d.png"
+  "static/media/portfolio.png": "static/media/portfolio.34495028.png",
+  "static/media/profile.png": "static/media/profile.07f3189d.png",
+  "static/media/squad-converter.png": "static/media/squad-converter.028331e1.png"
 }
