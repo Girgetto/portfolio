@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const project = (props) => {
-  return (
+const project = props => (
       <div className="container">
         <div className="column-wrapper">
           <div className="col-6">
@@ -26,7 +25,6 @@ const project = (props) => {
           </div>
         </div>
       </div>
-  );
-};
+);
 
 export default project;

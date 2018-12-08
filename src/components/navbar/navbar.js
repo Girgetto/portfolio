@@ -1,9 +1,7 @@
-import React, { Component } from "react";
-import "./navbar.css";
+import React, { Component } from 'react';
+import './navbar.css';
 
-class navbar extends Component {
-  render() {
-    return (
+const navbar = () => (
       <ul>
         <li>
           <a href="https://github.com/Girgetto">GitHub</a>
@@ -11,8 +9,6 @@ class navbar extends Component {
           <a href="https://www.facebook.com/ggrassini">Facebook</a>
         </li>
       </ul>
-    );
-  }
-}
+);
 
 export default navbar;

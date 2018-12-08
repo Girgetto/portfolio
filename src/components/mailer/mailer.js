@@ -1,14 +1,10 @@
-import React, { Component } from "react";
-import "./mailer.css";
+import React, { Component } from 'react';
+import './mail.css';
 
-class mailer extends Component{
-    render(){
-        return(
+const mailer = () => (
             <div>
-                
+
             </div>
-        );
-    }
-}
+);
 
 export default mailer;
