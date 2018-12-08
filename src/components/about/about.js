@@ -15,22 +15,22 @@ class about extends Component {
           the same time I was working for <a href="http://www.hotelvillacasalecchi.com">Hotel Villa Casalecchi</a> as IT. Moved to
           Madrid in 2017 to increase my knowledges in programming at <a href="https://www.ironhack.com">IronHack</a> where I work as TA.
         </p>
-        <a href="https://twitter.com/__Giorgio_">
+        <a target="_blank" href="https://twitter.com/__Giorgio_">
           <i className="fab fa-twitter-square fa-2x" />
         </a>
-        <a href="https://www.linkedin.com/in/giorgio-grassini-458023150/">
+        <a target="_blank" href="https://www.linkedin.com/in/giorgio-grassini-458023150/">
           <i className="fab fa-linkedin fa-2x" />
         </a>
-        <a href="https://www.facebook.com/ggrassini">
+        <a target="_blank" href="https://www.facebook.com/ggrassini">
           <i className="fab fa-facebook fa-2x" />
         </a>
-        <a href="https://plus.google.com/u/0/112911520666250234745">
+        <a target="_blank" href="https://plus.google.com/u/0/112911520666250234745">
           <i className="fab fa-google-plus-square fa-2x" />
         </a>
-        <a href="https://github.com/Girgetto">
+        <a target="_blank" href="https://github.com/Girgetto">
           <i className="fab fa-github-square fa-2x" />
         </a>
-        <a href="mailto:giorgiograssini@gmail.com">
+        <a target="_blank" href="mailto:giorgiograssini@gmail.com">
           <i className="fas fa-envelope-square fa-2x" />
         </a>
       </div>
