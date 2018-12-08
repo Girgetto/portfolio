@@ -1,8 +1,0 @@
-a{
-    color: $secondary-accent-color;
-    text-decoration: none;
-    @include transition(color .15s linear);
-    &:hover {
-        color: $accent-color;
-    }
-}
