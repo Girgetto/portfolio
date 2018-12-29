@@ -9,7 +9,7 @@ const header = () => (
     <h1 className="App-title">Giorgio Grassini</h1>
     <h2 className="Title-description container">
 TA at
-      <a href={ihLink}>Ironhack</a>
+      <a href={ihLink}> Ironhack</a>
     </h2>
   </header>
 );
