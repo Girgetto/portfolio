@@ -5,7 +5,7 @@ const project = props => (
   <div className="container slide-fwd-center">
     <div className="column-wrapper">
       <div className="col-6">
-        <a href={props.siteUrl} target="_blank">
+        <a href={props.siteUrl} rel="noopener noreferrer" target="_blank">
           <img className="frame" src={require(`../../assets/img/${props.img}.png`)} alt="img" />
         </a>
       </div>
@@ -22,7 +22,12 @@ const project = props => (
                 Star
           </a>
         </div>
-        <p>{props.description}</p>
+        <div style={{
+          textAlign: 'center', display: 'flex', justifyContent: 'center', alignContent: 'center',
+        }}
+        >
+          <p style={{ width: '50%' }}>{props.description}</p>
+        </div>
       </div>
     </div>
   </div>

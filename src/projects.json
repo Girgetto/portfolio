@@ -24,7 +24,7 @@
     "name":"Squad Converter",
     "githubUrl":"https://github.com/Girgetto/squad-converter",
     "siteUrl":"https://squads.ironhack.com/splash",
-    "description":"Project created for IronHack",
+    "description":"Angular project for Ironhack used to convert alumni cohort in dev squad number",
     "img":"squad-converter"
   }
 ]
