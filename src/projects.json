@@ -26,5 +26,12 @@
     "siteUrl":"https://squads.ironhack.com/splash",
     "description":"Angular project for Ironhack used to convert alumni cohort in dev squad number",
     "img":"squad-converter"
+  },
+  {
+    "name": "Circus",
+    "githubUrl": "https://github.com/Girgetto/circus",
+    "siteUrl": "http://www.insidecircus.org",
+    "description": "React ⚛ project for Ironhack for the circus event",
+    "img": "circus"
   }
 ]
