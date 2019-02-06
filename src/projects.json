@@ -33,5 +33,11 @@
     "siteUrl": "http://www.insidecircus.org",
     "description": "React ⚛ project for Ironhack for the circus event",
     "img": "circus"
+  },
+  {
+    "name": "Hotel Villa Casalecchi",
+    "siteUrl": "http://www.hotelvillacasalecchi.com/",
+    "description": "hotel's web page",
+    "img": "casalecchi"
   }
 ]

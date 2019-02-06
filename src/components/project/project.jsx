@@ -12,6 +12,7 @@ const project = props => (
       <div className="col-6">
         <div className="project-title">
           <h2>{props.name}</h2>
+          { props.githubUrl && (
           <a
             className="github-button"
             href={props.githubUrl}
@@ -21,6 +22,7 @@ const project = props => (
           >
                 Star
           </a>
+          )}
         </div>
         <div style={{
           textAlign: 'center', display: 'flex', justifyContent: 'center', alignContent: 'center',
