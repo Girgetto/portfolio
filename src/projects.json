@@ -1,5 +1,19 @@
 [
   {
+    "name": "Circus",
+    "githubUrl": "https://github.com/Girgetto/circus",
+    "siteUrl": "http://www.insidecircus.org",
+    "description": "React ⚛ project for Ironhack for the circus event",
+    "img": "circus"
+  },
+  {
+    "name":"Squad Converter",
+    "githubUrl":"https://github.com/Girgetto/squad-converter",
+    "siteUrl":"https://squads.ironhack.com/splash",
+    "description":"Angular project for Ironhack used to convert alumni cohort in dev squad number",
+    "img":"squad-converter"
+  },
+  {
     "name":"IronSpace",
     "githubUrl":"https://github.com/Girgetto/IronSpace",
     "siteUrl":"https://girgetto.github.io/IronSpace/index.html",
@@ -20,20 +34,7 @@
     "description": "Application to learn English by chatting with a bot 🤖",
     "img":"languinator"
   },
-  {
-    "name":"Squad Converter",
-    "githubUrl":"https://github.com/Girgetto/squad-converter",
-    "siteUrl":"https://squads.ironhack.com/splash",
-    "description":"Angular project for Ironhack used to convert alumni cohort in dev squad number",
-    "img":"squad-converter"
-  },
-  {
-    "name": "Circus",
-    "githubUrl": "https://github.com/Girgetto/circus",
-    "siteUrl": "http://www.insidecircus.org",
-    "description": "React ⚛ project for Ironhack for the circus event",
-    "img": "circus"
-  },
+
   {
     "name": "Hotel Villa Casalecchi",
     "siteUrl": "http://www.hotelvillacasalecchi.com/",
