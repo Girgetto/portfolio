@@ -14,6 +14,13 @@
     "img":"squad-converter"
   },
   {
+    "name":"Languinator",
+    "githubUrl":"https://github.com/Girgetto/IronSpace",
+    "siteUrl":"https://languinator.herokuapp.com",
+    "description": "Application to learn English by chatting with a bot 🤖",
+    "img":"languinator"
+  },
+  {
     "name":"IronSpace",
     "githubUrl":"https://github.com/Girgetto/IronSpace",
     "siteUrl":"https://girgetto.github.io/IronSpace/index.html",
@@ -27,14 +34,6 @@
     "description":"Application created to find and evaluate public toilets 🚽",
     "img":"loogle"
   },
-  {
-    "name":"Languinator",
-    "githubUrl":"https://github.com/Girgetto/IronSpace",
-    "siteUrl":"https://languinator.herokuapp.com",
-    "description": "Application to learn English by chatting with a bot 🤖",
-    "img":"languinator"
-  },
-
   {
     "name": "Hotel Villa Casalecchi",
     "siteUrl": "http://www.hotelvillacasalecchi.com/",
