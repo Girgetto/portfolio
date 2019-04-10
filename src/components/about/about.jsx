@@ -19,7 +19,7 @@ as IT. Moved to
       {' '}
       <a href="https://www.ironhack.com">IronHack</a>
       {' '}
-where I work as TA.
+where I worked as Teacher's Assistant for one year.
     </p>
     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/__Giorgio_">
       <i className="fab fa-twitter-square fa-2x" />
