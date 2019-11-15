@@ -34,9 +34,6 @@ team.
     <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ggrassini">
       <i className="fab fa-facebook fa-2x" />
     </a>
-    <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/u/0/112911520666250234745">
-      <i className="fab fa-google-plus-square fa-2x" />
-    </a>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Girgetto">
       <i className="fab fa-github-square fa-2x" />
     </a>
