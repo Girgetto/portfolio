@@ -10,7 +10,7 @@ const project = props => (
             className="frame"
             src={
               props.img
-                ? require(`../../assets/img/${props.img}.png`)
+                ? require(`../../../../assets/img/${props.img}.png`)
                 : props.imgUrl
             }
             alt="img"

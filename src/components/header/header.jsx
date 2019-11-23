@@ -1,4 +1,4 @@
-import React from "./node_modules/react";
+import React from "react";
 import logo from "../../assets/img/profile.jpg";
 
 const header = () => (

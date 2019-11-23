@@ -1,4 +1,4 @@
-import React from './node_modules/react';
+import React from 'react';
 import './navbar.css';
 
 const navbar = () => (
@@ -6,7 +6,7 @@ const navbar = () => (
     <li>
       <a href="https://github.com/Girgetto">GitHub</a>
       <a href="https://twitter.com/__Giorgio_">Twitter</a>
-      <a href="https://www.facebook.com/ggrassini">Facebook</a>
+      <a href="https://www.girgetto-io.netify.com">Girgetto.io</a>
     </li>
   </ul>
 );
