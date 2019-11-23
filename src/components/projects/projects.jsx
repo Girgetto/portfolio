@@ -1,7 +1,7 @@
 import "./projects.css";
 import React from "./node_modules/react";
 import projectsArr from "../../projects.json";
-import Project from "../project/project";
+import Project from "./components/Project/project";
 
 const renderProjects = () =>
   projectsArr.map(projectsElem => (
