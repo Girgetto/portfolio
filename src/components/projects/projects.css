@@ -1,39 +1,39 @@
 .flex-container {
     display: flex;
     flex-direction: row;
- }
+}
 
- .col-6{
-     width: 100%;
-     height: 12em;
-     padding-left:0px !important;
-     padding-right: 30px !important; 
- }
+.col-6 {
+    width: 100%;
+    height: 12em;
+    padding-left: 0px !important;
+    padding-right: 30px !important;
+}
 
- .frame{
-     height: 80%;
-     border-radius: 2px;
-     object-fit: contain;
- }
+.frame {
+    height: 80%;
+    border-radius: 2px;
+    object-fit: contain;
+}
 
- .column-wrapper{
-     margin: 20px;
-     padding: 10px;
-     margin-left: 0px;
-     padding-left: 0px;
- }
+.column-wrapper {
+    margin: 20px;
+    padding: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
 
- .github-button{
-    background-color:rgb(107, 155, 173) !important;
+.github-button {
+    background-color: rgb(107, 155, 173) !important;
     vertical-align: bottom !important;
     margin: 30px;
- }
+}
 
-.icons > li {
+.icons>li {
     width: 10px;
     float: left;
     height: 50px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .frame {
@@ -54,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom:1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 h2 {

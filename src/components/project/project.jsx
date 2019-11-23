@@ -8,7 +8,11 @@ const project = props => (
         <a href={props.siteUrl} rel="noopener noreferrer" target="_blank">
           <img
             className="frame"
-            src={props.img ? require(`../../assets/img/${props.img}.png`) : props.imgUrl}
+            src={
+              props.img
+                ? require(`../../assets/img/${props.img}.png`)
+                : props.imgUrl
+            }
             alt="img"
           />
         </a>

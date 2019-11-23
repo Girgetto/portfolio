@@ -6,7 +6,7 @@ body {
   font-family: 'roboto', sans-serif;
 }
 
-p{
+p {
   line-height: 1.7;
   display: block;
   -webkit-margin-before: 1em;
@@ -17,18 +17,18 @@ p{
   -webkit-font-smoothing: antialiased;
 }
 
-h2{
-  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   color: #aaa;
 }
 
-a{
+a {
   color: rgb(107, 155, 173);
 }
 
-h3{
+h3 {
   font-size: 20px;
   font-weight: 400;
 }
@@ -39,53 +39,54 @@ h3{
   margin-right: auto;
 }
 
-#about{
+#about {
   padding-bottom: 30px;
 }
 
-@media (max-width:420px){
-  
-  .container{
-   width: 400px;
+@media (max-width:420px) {
+
+  .container {
+    width: 400px;
   }
 
-  .column-wrapper{
+  .column-wrapper {
     height: 30rem;
     text-align: center;
   }
-  
-  .Title-description{
+
+  .Title-description {
     width: 375px;
   }
 
-  p{
+  p {
     width: 375px;
   }
-  
 
-  svg{
+
+  svg {
     margin: 0;
   }
 
-  .profile-logo{
+  .profile-logo {
     width: 50% !important;
   }
 
-  h1{
+  h1 {
     text-align: center;
   }
 
-  a{
+  a {
     margin: 0 auto;
   }
-  ul.icons{
+
+  ul.icons {
     margin-left: 25%;
   }
 
 }
 
-@media (max-width:768px){
-  .profile-logo{
+@media (max-width:768px) {
+  .profile-logo {
     width: 20% !important;
   }
 }
