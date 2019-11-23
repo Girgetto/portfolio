@@ -1,5 +1,17 @@
 [
   {
+    "name": "World Athletics",
+    "siteUrl": "https://www.worldathletics.org/",
+    "description": "Official page of the International Association of Athletics Federations",
+    "imgUrl": "https://www.worldathletics.org/static/wa-logo.svg"
+  },
+  {
+    "name": "NU:NC",
+    "siteUrl": "https://www.tailor-hub.com/projectNunc",
+    "description": "Your app to meet the marking obligations without anything changing in your company.",
+    "imgUrl":"https://www.tailor-hub.com/static/img/projectNunc/mockupNunc.png"
+  },
+  {
     "name": "Circus",
     "githubUrl": "https://github.com/Girgetto/circus",
     "siteUrl": "http://www.insidecircus.org",

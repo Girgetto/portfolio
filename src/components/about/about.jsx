@@ -57,7 +57,7 @@ const about = () => (
 			rel="noopener noreferrer"
 			href="https://girgetto-io.netlify.com"
 		>
-			<i class="fab fa-blogger-b fa-2x"/>
+			<i className="fab fa-blogger-b fa-2x"/>
 		</a>
 	</div>
 );
