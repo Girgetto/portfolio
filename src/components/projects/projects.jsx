@@ -1,5 +1,5 @@
 import "./projects.css";
-import React from "react";
+import React from "./node_modules/react";
 import projectsArr from "../../projects.json";
 import Project from "../project/project";
 
