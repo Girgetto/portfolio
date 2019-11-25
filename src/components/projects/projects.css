@@ -21,6 +21,14 @@
     padding: 10px;
     margin-left: 0px;
     padding-left: 0px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12) ;
+    border-radius: var(--border-radius);
+    transition: box-shadow 0.2s ease;
+    padding: 10% 5%;
+}
+
+.column-wrapper:hover {
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
 }
 
 .github-button {
@@ -64,5 +72,5 @@ h2 {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
