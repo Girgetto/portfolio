@@ -16,10 +16,8 @@ const about = () => (
       myself into every project I do, trying to bring my ideas to reality. I
       feel comfortable working in a group trying to inspire all my teammates. I
       began to study the basics of programming from high school, I continued my
-      studies at the University of Florence and at the same time I was working
-      for{" "}
-      <a href="http://www.hotelvillacasalecchi.com">Hotel Villa Casalecchi</a>{" "}
-      as IT. Moved to Madrid in 2017 to increase my knowledge in programming at{" "}
+      studies at the University of Florence. Moved to Madrid in 2017 to increase
+      my knowledge in programming at{" "}
       <a href="https://www.ironhack.com">IronHack</a> where I work as Teacher's
       Assistant and from April 2019 part of the{" "}
       <a href="https://www.guidesmiths.com/">Guidesmiths</a> team.
