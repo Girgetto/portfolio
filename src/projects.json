@@ -9,7 +9,7 @@
     "name": "NU:NC",
     "siteUrl": "https://www.tailor-hub.com/projectNunc",
     "description": "Your app to meet the marking obligations without anything changing in your company.",
-    "imgUrl":"https://www.tailor-hub.com/static/img/projectNunc/mockupNunc.png"
+    "imgUrl":"https://www.tailor-hub.com/static/img/nuncTailor.jpg"
   },
   {
     "name": "Circus",
@@ -38,13 +38,6 @@
     "siteUrl":"https://girgetto.github.io/IronSpace/index.html",
     "description":"The game's goal is to direct the spaceship 🚀 to the target without hitting the planets!",
     "img":"ironSpace"
-  },
-  {
-    "name": "Loogle",
-    "githubUrl":"https://github.com/giorgioxarlie/myAdvisor",
-    "siteUrl":"https://loogleee.herokuapp.com",
-    "description":"Application created to find and evaluate public toilets 🚽",
-    "img":"loogle"
   },
   {
     "name": "Hotel Villa Casalecchi",
