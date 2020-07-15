@@ -1952,7 +1952,7 @@ cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
   integrity sha512-GiNXLwAFPYHy25XmTPpafYvn3CLAkJ8FLsscq78MQd1Kh0OU6Yzhn4eV2MVF4G9WEQZoWEGltatdR+ntGPMl5A==
   dependencies:
     is-directory "^0.3.1"
-    js-yaml "^3.4.3"
+    js-yaml "^3.13.1"
     minimist "^1.2.0"
     object-assign "^4.1.0"
     os-homedir "^1.0.1"
@@ -4750,8 +4750,8 @@ js-yaml@^3.4.3, js-yaml@^3.7.0, js-yaml@^3.9.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-js-yaml@~3.7.0:
-  version "3.7.0"
+js-yaml@^3.13.1:
+  version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.7.0.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
   integrity sha1-XJZ93YN6m/3KXy3oQlOr6KHAO4A=
   dependencies:
@@ -5178,8 +5178,8 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
-mem@^1.1.0:
-  version "1.1.0"
+mem@^4.0.0:
+  version "4.0.0"
   resolved "https://registry.yarnpkg.com/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
   integrity sha1-Xt1StIXKHZAP5kiVUFOZoN+kX3Y=
   dependencies:
@@ -8220,8 +8220,8 @@ webpack-dev-middleware@^1.11.0:
     range-parser "^1.0.3"
     time-stamp "^2.0.0"
 
-webpack-dev-server@2.9.4:
-  version "2.9.4"
+webpack-dev-server@^3.1.11:
+  version "3.1.11"
   resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-2.9.4.tgz#7883e61759c6a4b33e9b19ec4037bd4ab61428d1"
   integrity sha512-thrqC0EQEoSjXeYgP6pUXcUCZ+LNrKsDPn+mItLnn5VyyNZOJKd06hUP5vqkYwL8nWWXsii0loSF9NHNccT6ow==
   dependencies:
