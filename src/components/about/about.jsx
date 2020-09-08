@@ -46,13 +46,6 @@ const about = () => (
     <a
       target="_blank"
       rel="noopener noreferrer"
-      href="mailto:giorgiograssini@gmail.com"
-    >
-      <i className="fas fa-envelope-square fa-2x" />
-    </a>
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
       href="https://girgetto-io.netlify.com"
     >
       <i className="fab fa-blogger-b fa-2x" />
