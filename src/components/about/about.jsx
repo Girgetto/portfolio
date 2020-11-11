@@ -7,7 +7,7 @@ const about = () => (
     style={{
       marginTop: "1rem",
       paddingTop: "1rem",
-      borderTop: "1px solid #eee"
+      borderTop: "1px solid #eee",
     }}
   >
     <h1 style={{ fontWeight: "300" }}>About me</h1>
@@ -18,8 +18,8 @@ const about = () => (
       began to study the basics of programming from high school, I continued my
       studies at the University of Florence. Moved to Madrid in 2017 to increase
       my knowledge in programming at{" "}
-      <a href="https://www.ironhack.com">IronHack</a> where I work as Teacher's
-      Assistant and from April 2019 part of the{" "}
+      <a href="https://www.ironhack.com">IronHack</a> where I've worked as
+      Teacher Assistant and from April 2019 part of the{" "}
       <a href="https://www.guidesmiths.com/">Guidesmiths</a> team.
     </p>
     <a
