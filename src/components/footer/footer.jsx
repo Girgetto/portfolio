@@ -14,7 +14,7 @@ const footer = () => (
     }}
   >
     <p>© Copyright {year} Giorgio Grassini</p>
-    <div>
+    <p>
       Iconos diseñados por{" "}
       <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
         Freepik
@@ -23,7 +23,7 @@ const footer = () => (
       <a href="https://www.flaticon.es/" title="Flaticon">
         www.flaticon.es
       </a>
-    </div>
+    </p>
   </footer>
 );
 
