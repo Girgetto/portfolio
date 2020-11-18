@@ -1,6 +1,6 @@
-import Navbar from "./navbar/navbar";
-import Header from "./header/header";
-import About from "./about/about";
-import Footer from "./footer/footer";
+import Navbar from "./Navbar/navbar";
+import Header from "./Header/header";
+import About from "./About/about";
+import Footer from "./Footer/footer";
 
 export { Navbar, Header, About, Footer };
