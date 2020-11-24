@@ -25,6 +25,13 @@ const navbar = () => (
       >
         Girgetto.io
       </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://dev.to/girgetto"
+      >
+        dev.to
+      </a>
     </li>
   </ul>
 );
