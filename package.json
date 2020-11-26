@@ -16,15 +16,19 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+<<<<<<< HEAD
     "eslint:fix":"eslint --fix --ext .js,.jsx ."
+=======
+    "eslint:fix": "eslint --fix --ext .js,.jsx ."
+>>>>>>> 60477620b65d524a3b052170c6c50b1c987dae34
   },
   "devDependencies": {
     "eslint": "^7.14.0",
     "eslint-plugin-react": "^7.7.0",
     "js-yaml": "^3.13.1",
     "mem": "4.0.0",
-    "webpack-dev-server": "3.1.11",
-    "yargs-parser": "^13.1.2"
+    "yargs-parser": "^13.1.2",
+    "webpack-dev-server": "3.11.0"
   },
   "browserslist": {
     "development": [
