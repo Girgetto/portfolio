@@ -1,5 +1,5 @@
-import React from "react";
-import logo from "../../assets/img/profile.jpg";
+import React from 'react';
+import logo from '../../assets/img/profile.jpg';
 
 const header = () => (
   <header className="App-header">
