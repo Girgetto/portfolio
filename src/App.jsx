@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar/navbar';
 import About from './components/About/about';
-import Projects from './components/Projects/projects';
 import Footer from './components/Footer/footer';
 import Header from './components/Header/header';
 
@@ -13,7 +12,6 @@ const App = () => (
 		<Navbar />
 		<Header />
 		<About />
-		<Projects />
 		<Footer />
 	</div>
 );
