@@ -8,6 +8,7 @@ const about = () => (
       marginTop: "1rem",
       paddingTop: "1rem",
       borderTop: "1px solid #eee",
+      width: '80%',
     }}
   >
     <h1 style={{ fontWeight: "300" }}>About me</h1>

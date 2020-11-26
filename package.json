@@ -16,11 +16,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-<<<<<<< HEAD
     "eslint:fix":"eslint --fix --ext .js,.jsx ."
-=======
-    "eslint:fix": "eslint --fix --ext .js,.jsx ."
->>>>>>> 60477620b65d524a3b052170c6c50b1c987dae34
   },
   "devDependencies": {
     "eslint": "^7.14.0",
