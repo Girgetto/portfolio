@@ -24,9 +24,16 @@ const navbar = () => (
 				href="https://girgetto-io.netlify.com/"
 			>
         Girgetto.io
-			</a>
-		</li>
-	</ul>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://dev.to/girgetto"
+      >
+        dev.to
+      </a>
+    </li>
+  </ul>
 );
 
 export default navbar;

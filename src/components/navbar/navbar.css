@@ -1,23 +1,23 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 ul li {
-    float: right;
-    display: inline-block;
-    padding: 10px;
+  float: right;
+  display: inline-block;
+  padding: 10px;
 }
 
 li a {
-    color: rgb(107, 155, 173);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 13px;
-    line-height: 1.35;
+  color: rgb(107, 155, 173);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.35;
 }
 
 /* Change the link color to #111 (black) on hover */
