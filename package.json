@@ -11,12 +11,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "NODE_ENV=production react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "eslint:fix":"eslint --fix --ext .js,.jsx ."
+    "eslint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "devDependencies": {
     "eslint": "^7.14.0",
