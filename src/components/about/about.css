@@ -10,3 +10,7 @@ p {
   font-size: 2em;
   margin-right: 1em;
 }
+
+.description {
+  text-align: left;
+}
