@@ -13,7 +13,7 @@ const footer = () => (
       borderTop: "1px solid #eee",
     }}
   >
-    <p>© Copyright {year} Giorgio Grassini</p>
+    <p>{year} Giorgio Grassini</p>
     <p>
       Iconos diseñados por{" "}
       <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
