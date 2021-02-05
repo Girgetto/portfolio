@@ -1,5 +1,5 @@
-import React from 'react';
-import './footer.css';
+import React from "react";
+import "./footer.css";
 
 const date = new Date();
 const year = date.getFullYear();
@@ -13,7 +13,7 @@ const footer = () => (
       borderTop: "1px solid #eee",
     }}
   >
-    <p>{year} Giorgio Grassini</p>
+    <p>©Giorgio Grassini {year}</p>
     <p>
       Iconos diseñados por{" "}
       <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
