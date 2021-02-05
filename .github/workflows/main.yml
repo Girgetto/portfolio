@@ -1,10 +1,20 @@
 on: [push]
 jobs:
-  build:
-    name: Test
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.0.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v2.1.2
         with:
-          cmd: deploy
+          node-version: '12.x'
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
