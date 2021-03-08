@@ -1,4 +1,7 @@
 on: [push]
+
+name: Deploy
+
 jobs:
   deploy:
     runs-on: ubuntu-18.04
