@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: "portfolio-gatsby",
+    title: "Giorgio Grassini",
+    author: `Giorgio Grassini`,
+    description: `Personal blog by Giorgio Grassini.`,
+    siteUrl: `https://girgetto.github.io/portfolio/`,
+    social: {
+      twitter: `__Giorgio_`,
+    },
   },
   plugins: [
     "gatsby-plugin-sass",
