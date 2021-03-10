@@ -2,7 +2,7 @@ import * as React from "react";
 
 import "../styles/App.css";
 import "../styles/index.css";
-import { Navbar, Header, About, Footer, seo } from "../components";
+import { Navbar, Header, About, Footer, SEO } from "../components";
 
 const IndexPage = () => {
   return (

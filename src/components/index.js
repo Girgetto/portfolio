@@ -3,5 +3,6 @@ import Header from "./header/header";
 import About from "./about/about";
 import Footer from "./footer/footer";
 import renderLoader from "./renderLoader";
+import SEO from "./SEO";
 
-export { Navbar, Header, About, Footer, renderLoader };
+export { Navbar, Header, About, Footer, renderLoader, SEO };
