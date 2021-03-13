@@ -11,6 +11,43 @@ p {
   margin-right: 1em;
 }
 
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+}
+
 .description {
   text-align: left;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 43px;
+}
+
+.left {
+  width: 40%;
+  text-align: left;
+}
+
+.right {
+  width: 60%;
+  max-width: 636px;
+}
+
+.code {
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 169.49743px;
+  }
 }

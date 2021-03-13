@@ -12,3 +12,15 @@
   margin-top: 5%;
   border-radius: 100%;
 }
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.header-title {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+}

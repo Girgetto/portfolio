@@ -9,10 +9,10 @@ const gitHubImg =
 const header = () => (
   <header className="portfolio-header">
     <Background />
-    <div className="header-presentation">
+    <div className="container header-presentation">
       <img src={gitHubImg} className="profile-logo" alt="logo" />
       <h1 className="portfolio-title">Giorgio Grassini</h1>
-      <h2 className="title-description container header-title">
+      <h2 className="title-description header-title">
         Fullstack Developer
       </h2>
     </div>
