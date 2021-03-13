@@ -1,0 +1,14 @@
+.background {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.profile-logo {
+  height: 50%;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  margin-top: 5%;
+  border-radius: 100%;
+}
