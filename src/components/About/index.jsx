@@ -10,7 +10,7 @@ const config = {
 };
 
 const About = () => (
-  <div className="container about-flex">
+  <div className="container about about-flex">
     <div className="left">
       <h1 className="about-title">About me</h1>
       <p className="description">

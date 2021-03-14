@@ -1,7 +1,13 @@
 import Typography from "typography";
 
 const theme = {
-  fontFamily: ["Roboto", "sans-serif"],
+  bodyFontFamily: ["Roboto", "sans-serif"].join(","),
+  h1: {
+    fontSize: "54px",
+  },
+  p: {
+    fontSize: "24px",
+  },
   h3: {
     fontSize: "24px",
   },
@@ -18,7 +24,9 @@ const theme = {
     textDecoration: "none",
   },
   a: {
+    fontFamily: ["Roboto", "sans-serif"].join(","),
     color: "var(--textNormal)",
+    fontSize: "16px",
   },
 };
 

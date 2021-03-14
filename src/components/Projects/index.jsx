@@ -13,7 +13,7 @@ const Projects = (props) => {
       github {
         viewer {
           repositories(
-            first: 8
+            first: 9
             orderBy: { field: STARGAZERS, direction: ASC }
           ) {
             edges {
@@ -26,7 +26,7 @@ const Projects = (props) => {
                   totalCount
                 }
                 forkCount
-                languages(first: 3) {
+                languages(first: 1) {
                   nodes {
                     id
                     name
@@ -41,33 +41,29 @@ const Projects = (props) => {
   `);
 
   return (
-    <div>
-      <h1>My Github projects</h1>
+    <div className="container">
+      <h1 className="title">My Github projects</h1>
       <ol>
         {edges.map(({ node }) => (
-          <li
-            key={node.id}
-            as="a"
-            href={node.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div>
+          <li key={node.id}>
+            <div className="box">
               <div>
-                <h1>{node.name}</h1>
-                <p>{node.description}</p>
+                <a href={node.url} target="_blank" rel="noopener noreferrer">
+                  {node.name}
+                </a>
+                <p className="description">{node.description}</p>
               </div>
-              <div>
-                <div>
-                  <span>{node.stargazers.totalCount}</span>
-                </div>
-                <div>
-                  <span>{node.forkCount}</span>
-                </div>
-                <div>
+              <div className="box-footer">
+                <div className="info">
                   {node.languages.nodes.map(({ id, name }) => (
                     <span key={id}>{name}</span>
                   ))}
+                </div>
+                <div className="info">
+                  <span>{node.stargazers.totalCount}</span>
+                </div>
+                <div className="info">
+                  <span>{node.forkCount}</span>
                 </div>
               </div>
             </div>

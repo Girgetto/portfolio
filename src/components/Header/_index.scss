@@ -1,26 +1,35 @@
-.background {
-  position: absolute;
-  left: 0;
-  z-index: -1;
-}
+.portfolio-header {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.profile-logo {
-  height: 50%;
-  margin: 0 auto;
-  width: 200px;
-  height: 200px;
-  margin-top: 5%;
-  border-radius: 100%;
-}
+  .background {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
 
-.portfolio-title {
-  font-weight: 500;
-  font-size: 72px;
-  line-height: 84px;
-}
+  .profile-logo {
+    height: 50%;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    border-radius: 100%;
+  }
 
-.header-title {
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 42px;
+  .portfolio-title {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+  }
+
+  .header-title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+  }
 }

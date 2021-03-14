@@ -1,38 +1,32 @@
-.fa-2x {
-  font-size: 2em;
-  margin-right: 1em;
-}
-
-.about-flex {
+.container.about.about-flex {
+  margin: 15% 0;
   display: flex;
   justify-content: space-between;
-}
 
-.about-title {
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 75px;
-}
+  .about-title {
+    font-weight: 500;
+    line-height: 75px;
+  }
 
-.description {
-  text-align: left;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 43px;
-}
+  .description {
+    text-align: left;
+    font-weight: 300;
+    line-height: 43px;
+  }
 
-.left {
-  width: 40%;
-  text-align: left;
-}
+  .left {
+    width: 40%;
+    text-align: left;
+  }
 
-.right {
-  width: 60%;
-  max-width: 636px;
-}
+  .right {
+    width: 60%;
+    max-width: 636px;
+  }
 
-.code {
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  .code {
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
 }
 
 @keyframes typing {
