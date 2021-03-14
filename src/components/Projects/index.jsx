@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { Box } from "../../templates";
 
-const Projects = (props) => {
+import { Box } from "../../templates";
+import Bubble from "../../assets/Bubble";
+
+const Projects = () => {
   const {
     github: {
       viewer: {
@@ -45,6 +47,7 @@ const Projects = (props) => {
 
   return (
     <div className="container">
+      <Bubble className="bubble" />
       <h1 className="title">My Github projects</h1>
       <ol>
         {edges.map(({ node }) => (

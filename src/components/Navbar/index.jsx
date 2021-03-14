@@ -12,7 +12,7 @@ const links = [
 const Navbar = () => (
   <ul>
     {links.map(({ href, title }) => (
-      <li>
+      <li key={title}>
         <a target="_blank" rel="noopener noreferrer" href={href}>
           {title}
         </a>
