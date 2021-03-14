@@ -1,6 +1,6 @@
 import React from "react";
 
-const renderLoader = () => (
+const Loader = () => (
   <p
     style={{
       display: "flex",
@@ -13,4 +13,4 @@ const renderLoader = () => (
   </p>
 );
 
-export default renderLoader;
+export default Loader;

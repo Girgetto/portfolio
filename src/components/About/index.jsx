@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./about.css";
 import CodeThinking from "../../assets/CodeThinking";
 
 const config = {
@@ -10,7 +9,7 @@ const config = {
   girgetto_io: "https://girgetto-io.netlify.com",
 };
 
-const about = () => (
+const About = () => (
   <div className="container about-flex">
     <div className="left">
       <h1 className="about-title">About me</h1>
@@ -30,4 +29,4 @@ const about = () => (
   </div>
 );
 
-export default about;
+export default About;

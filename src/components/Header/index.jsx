@@ -1,12 +1,11 @@
 import React from "react";
 
 import Background from "../../assets/background.js";
-import "./header.css";
 
 const gitHubImg =
   "https://avatars3.githubusercontent.com/u/33903092?s=460&u=6184ecd306816175a754a42d871329f02d457272&v=4";
 
-const header = () => (
+const Header = () => (
   <header className="portfolio-header">
     <Background />
     <div className="container header-presentation">
@@ -19,4 +18,4 @@ const header = () => (
   </header>
 );
 
-export default header;
+export default Header;

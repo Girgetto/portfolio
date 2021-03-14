@@ -1,8 +1,9 @@
-import Navbar from "./navbar/navbar";
-import Header from "./header/header";
-import About from "./about/about";
-import Footer from "./footer/footer";
-import renderLoader from "./renderLoader";
-import SEO from "./seo";
+import Navbar from "./Navbar";
+import Header from "./Header";
+import About from "./About";
+import Footer from "./Footer";
+import Loader from "./Loader";
+import SEO from "./SEO";
+import Projects from "./Projects";
 
-export { Navbar, Header, About, Footer, renderLoader, SEO };
+export { Navbar, Header, About, Footer, Loader, SEO, Projects };

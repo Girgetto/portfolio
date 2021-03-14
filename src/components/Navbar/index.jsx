@@ -1,9 +1,9 @@
 import React from 'react';
-import './navbar.css';
 
-const navbar = () => (
+const Navbar = () => (
 	<ul>
 		<li>
+			{/* TODO: Refactor */}
 			<a
 				target="_blank"
 				rel="noopener noreferrer"
@@ -36,4 +36,4 @@ const navbar = () => (
   </ul>
 );
 
-export default navbar;
+export default Navbar;
