@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import { Box } from "../../templates";
@@ -44,10 +44,28 @@ const Projects = () => {
       }
     }
   `);
+  const [state, setState] = useState({
+    x: window.scrollX,
+    y: window.scrollY,
+  });
+
+  const handleScroll = (e) => {
+    setState({
+      x: window.scrollX,
+      y: window.scrollY,
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="container">
-      <Bubble className="bubble" />
+    <div className="container" onScroll={handleScroll}>
+      <Bubble className="bubble" y={state.y}/>
       <h1 className="title">My Github projects</h1>
       <ol>
         {edges.map(({ node }) => (

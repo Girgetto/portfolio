@@ -6,27 +6,33 @@ import {
   faCircle,
 } from "@fortawesome/free-solid-svg-icons";
 
-const colorSwitcher = (name) => ({
- HTML: '#e34c26',
- JavaScript: '#f1e05a',
- CSS: '#563d7c',
- JupyterNotebook: '#DA5B0B',
-}[name.replace(' ', '')])
+const colorSwitcher = (name) =>
+  ({
+    HTML: "#e34c26",
+    JavaScript: "#f1e05a",
+    CSS: "#563d7c",
+    JupyterNotebook: "#DA5B0B",
+  }[name.replace(" ", "")]);
 
 const Box = ({ node }) => {
   return (
     <div className="box">
       <div>
-        <a href={node.url} target="_blank" rel="noopener noreferrer">
-          {node.name}
-        </a>
+        <b>
+          <a href={node.url} target="_blank" rel="noopener noreferrer">
+            {node.name}
+          </a>
+        </b>
         <p className="description">{node.description}</p>
       </div>
       <div className="box-footer">
         <div className="info">
           {node.languages.nodes.map(({ id, name }) => (
             <div key={id}>
-              <FontAwesomeIcon icon={faCircle} style={{ color: colorSwitcher(name) }} />
+              <FontAwesomeIcon
+                icon={faCircle}
+                style={{ color: colorSwitcher(name) }}
+              />
               <span>{name}</span>
             </div>
           ))}

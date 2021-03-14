@@ -1,6 +1,6 @@
 import React from "react";
 
-const Bubble = ({ className }) => (
+const Bubble = ({ className, y }) => (
   <svg
     width="650"
     height="498"
