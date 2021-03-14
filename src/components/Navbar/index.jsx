@@ -1,12 +1,12 @@
 import React from "react";
 
-import { github, twitter, girgetto_io, dev_to } from "../../config/config.json";
+import config from "../../config/config.json";
 
 const links = [
-  { href: github, title: "GitHub" },
-  { href: twitter, title: "Twitter" },
-  { href: girgetto_io, title: "Girgetto.io" },
-  { href: dev_to, title: "dev.to" },
+  { href: config.github, title: "GitHub" },
+  { href: config.twitter, title: "Twitter" },
+  { href: config.girgetto_io, title: "Girgetto.io" },
+  { href: config.dev_to, title: "dev.to" },
 ];
 
 const Navbar = () => (

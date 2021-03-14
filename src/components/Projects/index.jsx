@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Box from "../../templates/box";
+import { Box } from "../../templates";
 
 const Projects = (props) => {
   const {
@@ -49,7 +49,7 @@ const Projects = (props) => {
       <ol>
         {edges.map(({ node }) => (
           <li key={node.id}>
-            <Box node={node}/>
+            <Box node={node} />
           </li>
         ))}
       </ol>
