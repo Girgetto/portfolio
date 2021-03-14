@@ -1,7 +1,7 @@
 import Typography from "typography";
 
 const theme = {
-  bodyFontFamily: ["Roboto", "sans-serif"].join(","),
+  bodyFontFamily: ["Roboto", "sans-serif"],
   h1: {
     fontSize: "54px",
   },

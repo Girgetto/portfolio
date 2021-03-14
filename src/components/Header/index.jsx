@@ -1,9 +1,7 @@
 import React from "react";
 
 import Background from "../../assets/background.js";
-
-const gitHubImg =
-  "https://avatars3.githubusercontent.com/u/33903092?s=460&u=6184ecd306816175a754a42d871329f02d457272&v=4";
+import { gitHubImg } from "../../config/config.json";
 
 const Header = () => (
   <header className="portfolio-header">
@@ -11,9 +9,7 @@ const Header = () => (
     <div className="container header-presentation">
       <img src={gitHubImg} className="profile-logo" alt="logo" />
       <h1 className="portfolio-title">Giorgio Grassini</h1>
-      <h2 className="title-description header-title">
-        Fullstack Developer
-      </h2>
+      <h2 className="header-job-title">Fullstack Developer</h2>
     </div>
   </header>
 );

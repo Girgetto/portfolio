@@ -1,38 +1,23 @@
-import React from 'react';
+import React from "react";
+
+import { github, twitter, girgetto_io, dev_to } from "../../config/config.json";
+
+const links = [
+  { href: github, title: "GitHub" },
+  { href: twitter, title: "Twitter" },
+  { href: girgetto_io, title: "Girgetto.io" },
+  { href: dev_to, title: "dev.to" },
+];
 
 const Navbar = () => (
-	<ul>
-		<li>
-			{/* TODO: Refactor */}
-			<a
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://github.com/Girgetto"
-			>
-        GitHub
-			</a>
-			<a
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://twitter.com/__Giorgio_"
-			>
-        Twitter
-			</a>
-			<a
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://girgetto-io.netlify.com/"
-			>
-        Girgetto.io
-      </a>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://dev.to/girgetto"
-      >
-        dev.to
-      </a>
-    </li>
+  <ul>
+    {links.map(({ href, title }) => (
+      <li>
+        <a target="_blank" rel="noopener noreferrer" href={href}>
+          {title}
+        </a>
+      </li>
+    ))}
   </ul>
 );
 

@@ -16,6 +16,7 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    "gatsby-plugin-fontawesome-css",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {

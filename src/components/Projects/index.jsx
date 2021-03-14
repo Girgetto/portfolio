@@ -1,5 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import Box from "../../templates/box";
 
 const Projects = (props) => {
   const {
@@ -13,8 +14,10 @@ const Projects = (props) => {
       github {
         viewer {
           repositories(
+            isFork: false
             first: 9
-            orderBy: { field: STARGAZERS, direction: ASC }
+            orderBy: { field: STARGAZERS, direction: DESC }
+            affiliations: OWNER
           ) {
             edges {
               node {
@@ -46,27 +49,7 @@ const Projects = (props) => {
       <ol>
         {edges.map(({ node }) => (
           <li key={node.id}>
-            <div className="box">
-              <div>
-                <a href={node.url} target="_blank" rel="noopener noreferrer">
-                  {node.name}
-                </a>
-                <p className="description">{node.description}</p>
-              </div>
-              <div className="box-footer">
-                <div className="info">
-                  {node.languages.nodes.map(({ id, name }) => (
-                    <span key={id}>{name}</span>
-                  ))}
-                </div>
-                <div className="info">
-                  <span>{node.stargazers.totalCount}</span>
-                </div>
-                <div className="info">
-                  <span>{node.forkCount}</span>
-                </div>
-              </div>
-            </div>
+            <Box node={node}/>
           </li>
         ))}
       </ol>

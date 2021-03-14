@@ -1,13 +1,7 @@
 import React from "react";
 
 import CodeThinking from "../../assets/CodeThinking";
-
-const config = {
-  twitter: "https://twitter.com/__Giorgio_",
-  linkedin: "https://www.linkedin.com/in/giorgio-grassini-458023150/",
-  github: "https://github.com/Girgetto",
-  girgetto_io: "https://girgetto-io.netlify.com",
-};
+import config from "../../config/config.json";
 
 const About = () => (
   <div className="container about about-flex">
@@ -20,9 +14,14 @@ const About = () => (
         I began to study the basics of programming from high school, I continued
         my studies at the University of Florence. Moved to Madrid in 2017 to
         increase my knowledge in programming at{" "}
-        <a href="https://www.ironhack.com">IronHack</a> where I've worked as
-        Teacher Assistant and from April 2019 part of the{" "}
-        <a href="https://www.guidesmiths.com/">Guidesmiths</a> team.
+        <a target="blank" href={config.ironHackURL}>
+          IronHack
+        </a>{" "}
+        where I've worked as Teacher Assistant and from April 2019 part of the{" "}
+        <a target="blank" href={config.guidesmithsURL}>
+          Guidesmiths
+        </a>{" "}
+        team.
       </p>
     </div>
     <CodeThinking className="right" />

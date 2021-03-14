@@ -1,6 +1,12 @@
 @import "../components";
+@import "../templates";
 @import "../config/global_variables";
 
 .App {
   margin: 0 10%;
+}
+
+a {
+  color: var(--textNormal);
+  font-size: 18px;
 }
