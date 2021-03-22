@@ -40,5 +40,8 @@
     "react-typography": "^0.16.19",
     "sass": "^1.32.8",
     "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "is-svg": ">=4.2.2"
   }
 }
