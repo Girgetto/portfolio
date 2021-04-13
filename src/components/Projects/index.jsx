@@ -15,10 +15,11 @@ const Projects = () => {
       github {
         viewer {
           repositories(
-            isFork: false
             first: 9
-            orderBy: { field: STARGAZERS, direction: DESC }
-            affiliations: OWNER
+            orderBy: { direction: DESC, field: PUSHED_AT }
+            isFork: false
+            ownerAffiliations: OWNER
+            privacy: PUBLIC
           ) {
             edges {
               node {
