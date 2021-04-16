@@ -18,3 +18,9 @@ li a {
   text-decoration: none;
   line-height: 1.35;
 }
+
+@media (max-width: 768px) {
+  ul {
+    display: none;
+  }
+}

@@ -2,9 +2,8 @@ import React from "react";
 
 const Background = () => (
   <svg
-    width="1385"
+    width="auto"
     height="275"
-    viewBox="0 0 1385 275"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     className="background"
