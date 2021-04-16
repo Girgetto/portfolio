@@ -29,6 +29,23 @@
   .code {
     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .about-title {
+      text-align: center;
+    }
+
+    .left {
+      width: 100%;
+    }
+
+    .right {
+      width: 100%;
+    }
+  }
 }
 
 @keyframes typing {
