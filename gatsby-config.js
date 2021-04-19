@@ -18,9 +18,9 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-fontawesome-css",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: "G-94BPMNJK7N",
+        trackingIds: ["G-94BPMNJK7N"],
       },
     },
     "gatsby-plugin-react-helmet",
@@ -59,14 +59,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-bundle-stats',
+      resolve: "gatsby-plugin-bundle-stats",
       options: {
         compare: true,
-        outDir: '../artifacts',
+        outDir: "../artifacts",
         stats: {
-          context: './src'
-        }
-      }
+          context: "./src",
+        },
+      },
     },
   ],
 };
