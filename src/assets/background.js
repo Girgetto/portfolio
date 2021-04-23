@@ -2,7 +2,7 @@ import React from "react";
 
 const Background = () => (
   <svg
-    width="auto"
+    width="100%"
     height="275"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
