@@ -12,6 +12,7 @@ module.exports = {
       twitter: `__Giorgio_`,
     },
   },
+  pathPrefix: `/portfolio`,
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
