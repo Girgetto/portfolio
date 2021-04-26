@@ -10,6 +10,7 @@ const IndexPage = () => (
     <Components.About />
     <Components.Projects />
     <Components.Footer />
+    <Components.Cookies />
   </div>
 );
 
