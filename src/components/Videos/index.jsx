@@ -18,13 +18,19 @@ const Videos = () => {
       }
     }
   `);
-  console.log(edges);
   return (
     <div className="container">
+      <h1>My Videos</h1>
       {edges.map((video) => (
-        <div key={video.node.id}>
-          <img src={video.node.thumbnail} alt="video"/>
-          <a href={video.node.url}>{video.node.title}</a>
+        <div className="video-content" key={video.node.id}>
+          <a href={video.node.url} target="_blank">
+            <img
+              className="video-image"
+              src={video.node.thumbnail}
+              alt="video"
+            />
+            {video.node.title}
+          </a>
         </div>
       ))}
     </div>
