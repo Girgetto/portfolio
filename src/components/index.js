@@ -6,5 +6,16 @@ import Loader from "./Loader";
 import SEO from "./SEO";
 import Projects from "./Projects";
 import Cookies from "./Cookies";
+import Videos from "./Videos";
 
-export { Navbar, Header, About, Footer, Loader, SEO, Projects, Cookies };
+export {
+  Navbar,
+  Header,
+  About,
+  Footer,
+  Loader,
+  SEO,
+  Projects,
+  Cookies,
+  Videos,
+};

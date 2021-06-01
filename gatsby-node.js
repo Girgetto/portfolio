@@ -16,6 +16,7 @@ exports.sourceNodes = async ({
     storageQuota: 10000000,
   });
   const titles = dom.window.document.getElementsByTagName("media:title");
+  const thumbnails = dom.window.document.getElementsByTagName("media:thumbnail");
   const videos = dom.window.document.querySelectorAll("entry > link");
   const data = [];
   for (let index = 0; index < videos.length; index++) {
@@ -23,6 +24,7 @@ exports.sourceNodes = async ({
     data.push({
       title: titles[index].textContent,
       url: element.getAttribute("href"),
+      thumbnail: thumbnails[index].getAttribute("url")
     });
   }
 

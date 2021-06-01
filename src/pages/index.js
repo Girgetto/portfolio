@@ -8,6 +8,7 @@ const IndexPage = () => (
     <Components.Navbar />
     <Components.Header />
     <Components.About />
+    <Components.Videos />
     <Components.Projects />
     <Components.Footer />
     <Components.Cookies />
