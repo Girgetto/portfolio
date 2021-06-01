@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
-import Bubble from '../../assets/Bubble';
+import Bubble from "../../assets/Bubble";
 
 export default function Posts() {
   const {
@@ -26,8 +26,13 @@ export default function Posts() {
       <h1>My Posts</h1>
       {edges.map((post) => (
         <div className="post-content" key={post.node.id}>
-          <span id="point-right">👉{" "}</span>
-          <a className="post-link" href={post.node.url} target="_blank">
+          <span id="point-right">👉 </span>
+          <a
+            className="post-link"
+            href={post.node.url}
+            target="_blank"
+            rel="noopener"
+          >
             {post.node.title}
           </a>
         </div>

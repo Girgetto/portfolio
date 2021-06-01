@@ -23,7 +23,7 @@ const Videos = () => {
       <h1>My Videos</h1>
       {edges.map((video) => (
         <div className="video-content" key={video.node.id}>
-          <a href={video.node.url} target="_blank">
+          <a href={video.node.url} target="_blank" rel="noopener">
             <img
               className="video-image"
               src={video.node.thumbnail}
