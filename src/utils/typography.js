@@ -4,6 +4,7 @@ const theme = {
   bodyFontFamily: ["Roboto", "sans-serif"],
   h1: {
     fontSize: "54px",
+    fontWeight: "500",
   },
   p: {
     fontSize: "24px",

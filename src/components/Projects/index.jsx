@@ -46,7 +46,7 @@ const Projects = () => {
   `);
 
   return (
-    <div className="container">
+    <div className="container row">
       <h1 className="title">My Github projects</h1>
       <ol>
         {edges.map(({ node }) => (

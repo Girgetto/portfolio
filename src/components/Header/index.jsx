@@ -4,7 +4,7 @@ import Background from "../../assets/background.js";
 import config from "../../config/config.json";
 
 const Header = () => (
-  <header className="portfolio-header">
+  <header className="portfolio-header row">
     <Background />
     <div className="container header-presentation">
       <img src={config.gitHubImg} className="profile-logo" alt="logo" />

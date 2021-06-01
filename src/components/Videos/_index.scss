@@ -1,9 +1,19 @@
 .video-image {
-  height: 186px;
-  width: 248px;
+  width: 35%;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .video-content > a {
   display: flex;
-    flex-direction: column;
+  align-items: center;
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.container a {
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 }

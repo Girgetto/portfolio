@@ -4,7 +4,7 @@ import CodeThinking from "../../assets/CodeThinking";
 import config from "../../config/config.json";
 
 const About = () => (
-  <div className="container about about-flex">
+  <div className="container about about-flex row">
     <div className="left">
       <h1 className="about-title">About me</h1>
       <p className="description">

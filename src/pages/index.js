@@ -8,7 +8,10 @@ const IndexPage = () => (
     <Components.Navbar />
     <Components.Header />
     <Components.About />
-    <Components.Videos />
+    <div className="flex space row">
+      <Components.Posts />
+      <Components.Videos />
+    </div>
     <Components.Projects />
     <Components.Footer />
     <Components.Cookies />

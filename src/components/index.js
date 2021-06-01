@@ -7,6 +7,7 @@ import SEO from "./SEO";
 import Projects from "./Projects";
 import Cookies from "./Cookies";
 import Videos from "./Videos";
+import Posts from "./Posts";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Projects,
   Cookies,
   Videos,
+  Posts,
 };

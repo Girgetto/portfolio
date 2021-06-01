@@ -6,7 +6,7 @@ const Videos = () => {
     allYouTubeVideos: { edges },
   } = useStaticQuery(graphql`
     {
-      allYouTubeVideos {
+      allYouTubeVideos(limit: 3) {
         edges {
           node {
             id
