@@ -13,7 +13,7 @@ const About = () => (
         <br />
         Currently working at{" "}
         <a target="blank" href={config.guidesmithsURL}>
-          DSCL Guidesmiths
+          DCSL Guidesmiths
         </a>{" "}
         💻 full time, giving classes at{" "}
         <a target="blank" href={"https://www.thebridge.tech/"}>
