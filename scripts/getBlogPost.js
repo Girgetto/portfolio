@@ -1,3 +1,6 @@
+const fetch = require(`node-fetch`);
+const jsdom = require("jsdom");
+
 const getBlogPosts = async ({
   actions: { createNode },
   createContentDigest,
@@ -37,4 +40,4 @@ const getBlogPosts = async ({
   }
 };
 
-export default getBlogPosts;
+module.exports = { getBlogPosts };

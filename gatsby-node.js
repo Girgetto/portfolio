@@ -1,7 +1,5 @@
-const fetch = require(`node-fetch`);
-const jsdom = require("jsdom");
-const getYouTubeVideos = require("./scripts/getYouTubeVideos");
-const getBlogPosts = require("./scripts/getBlogPost");
+const { getYouTubeVideos } = require("./scripts/getYouTubeVideos");
+const { getBlogPosts } = require("./scripts/getBlogPost");
 
 exports.sourceNodes = async (props) => {
   await getYouTubeVideos(props);

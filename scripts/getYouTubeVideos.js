@@ -1,3 +1,6 @@
+const fetch = require(`node-fetch`);
+const jsdom = require("jsdom");
+
 const getYouTubeVideos = async ({
   actions: { createNode },
   createContentDigest,
@@ -42,4 +45,4 @@ const getYouTubeVideos = async ({
   }
 };
 
-export default getYouTubeVideos;
+module.exports = { getYouTubeVideos };
