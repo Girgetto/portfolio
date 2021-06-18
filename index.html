@@ -1,0 +1,462 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.45 'Roboto',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Roboto',sans-serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}ul{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:0.85rem;line-height:1.45rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}blockquote{margin-left:1.45rem;margin-right:1.45rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.45rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.45rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}li > ul{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.45rem / 2);}code{font-size:0.85rem;line-height:1.45rem;}kbd{font-size:0.85rem;line-height:1.45rem;}samp{font-size:0.85rem;line-height:1.45rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.96667rem;padding-right:0.96667rem;padding-top:0.725rem;padding-bottom:calc(0.725rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/portfolio/styles.12d4a959604ee1f73f34.css" id="gatsby-global-css">footer{color:#000;display:block;height:40px;text-align:center}.portfolio-header .container{align-items:center;display:flex;flex-direction:column;justify-content:center}.portfolio-header .background{left:0;position:absolute;z-index:-1}.portfolio-header .profile-logo{border-radius:100%;height:50%;height:200px;margin:5% auto 0;width:200px}.portfolio-header .portfolio-title{font-size:72px;font-weight:500;line-height:84px;text-align:center}.portfolio-header .header-title{font-size:36px;font-weight:300;line-height:42px}.portfolio-header .header-job-title{font-size:26px;font-weight:100}.container.about.about-flex{display:flex;justify-content:space-between}.container.about.about-flex .about-title{font-size:54px;font-weight:500;line-height:75px}.container.about.about-flex .description{font-size:20px;font-weight:300;line-height:43px;text-align:left}.container.about.about-flex .left{text-align:left;width:40%}.container.about.about-flex .right{max-width:636px;width:60%}.container.about.about-flex .code{animation:typing 3.5s steps(40),blink-caret .75s step-end infinite}@media(max-width:768px){.container.about.about-flex{flex-direction:column}.container.about.about-flex .about-title{text-align:center}.container.about.about-flex .left,.container.about.about-flex .right{width:100%}}@keyframes typing{0%{width:0}to{width:169.49743px}}ul{list-style-type:none;margin:0;overflow:hidden;padding:0;position:absolute;right:0}ul li{display:inline-block;padding:10px}li a{line-height:1.35;padding:14px 16px;text-align:center;text-decoration:none}@media(max-width:768px){ul{display:none}}.title{text-align:center}ol{display:flex;flex-wrap:wrap;list-style:none}ol li{flex:1 0 30%;min-width:207px;padding-left:8px;padding-right:8px}.bubble{position:absolute;transform:translate(-100px);z-index:-1}@keyframes rotate{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}#rcc-confirm-button{background-color:var(--secondary)!important;color:var(--color-bg-primary)!important}.video-image{border-radius:20px;padding:0 10px 0 0;width:35%}.video-content>a{align-items:center;display:flex}.video-content>a img:hover{transform:scale(1.1)}@media(max-width:768px){.container a{align-items:center}}.container .post-content{padding:16px 0}.container .bubble{transform:translate(60vw,-40vh)}.container .post-link{font-size:20px}@media(max-width:768px){.container{text-align:center}.container .bubble{display:none}}.box{background-color:var(--color-bg-primary);border:1px solid var(--color-border-primary);border-radius:6px;display:flex;flex-direction:column;justify-content:space-between;margin-bottom:16px;min-height:200px;padding:16px}.box a{padding:0}.box .description{padding-top:1em}.box .box-footer{display:flex}.box .box-footer span{margin:4px}.box .box-footer .info:not(:first-child){margin:0 5%}:root{--bg:#f6f6f6;--textNormal:#222;--textLink:#4545ca;--color-bg-primary:#fff;--color-border-primary:#e1e4e8;--secondary:#8bc34a}.App{margin:0 10%}a{color:var(--textNormal);font-size:18px}.flex{display:flex}@media(max-width:768px){.flex{align-items:center;flex-direction:column}}.space{justify-content:space-between}.row{margin:0 0 15%}</style><meta name="generator" content="Gatsby 3.6.1"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.225em;
+}
+.svg-inline--fa.fa-w-1 {
+  width: 0.0625em;
+}
+.svg-inline--fa.fa-w-2 {
+  width: 0.125em;
+}
+.svg-inline--fa.fa-w-3 {
+  width: 0.1875em;
+}
+.svg-inline--fa.fa-w-4 {
+  width: 0.25em;
+}
+.svg-inline--fa.fa-w-5 {
+  width: 0.3125em;
+}
+.svg-inline--fa.fa-w-6 {
+  width: 0.375em;
+}
+.svg-inline--fa.fa-w-7 {
+  width: 0.4375em;
+}
+.svg-inline--fa.fa-w-8 {
+  width: 0.5em;
+}
+.svg-inline--fa.fa-w-9 {
+  width: 0.5625em;
+}
+.svg-inline--fa.fa-w-10 {
+  width: 0.625em;
+}
+.svg-inline--fa.fa-w-11 {
+  width: 0.6875em;
+}
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+.svg-inline--fa.fa-w-13 {
+  width: 0.8125em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+.svg-inline--fa.fa-w-15 {
+  width: 0.9375em;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa.fa-w-17 {
+  width: 1.0625em;
+}
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+.svg-inline--fa.fa-w-19 {
+  width: 1.1875em;
+}
+.svg-inline--fa.fa-w-20 {
+  width: 1.25em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-border {
+  height: 1.5em;
+}
+.svg-inline--fa.fa-li {
+  width: 2em;
+}
+.svg-inline--fa.fa-fw {
+  width: 1.25em;
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: 0.25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.fa-pull-left {
+  float: left;
+}
+
+.fa-pull-right {
+  float: right;
+}
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: 0.3em;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse {
+  color: #fff;
+}</style><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><title data-react-helmet="true">Home | Giorgio Grassini</title><meta data-react-helmet="true" name="description" content="Personal blog by Giorgio Grassini."/><meta data-react-helmet="true" property="og:title" content="Home"/><meta data-react-helmet="true" property="og:description" content="Personal blog by Giorgio Grassini."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Giorgio Grassini"/><meta data-react-helmet="true" name="twitter:title" content="Home"/><meta data-react-helmet="true" name="twitter:description" content="Personal blog by Giorgio Grassini."/><link rel="icon" href="/portfolio/favicon-32x32.png?v=d3c57422ac1250ac35581aee7b347289" type="image/png"/><link rel="manifest" href="/portfolio/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/portfolio/icons/icon-48x48.png?v=d3c57422ac1250ac35581aee7b347289"/><link rel="apple-touch-icon" sizes="72x72" href="/portfolio/icons/icon-72x72.png?v=d3c57422ac1250ac35581aee7b347289"/><link rel="apple-touch-icon" sizes="96x96" href="/portfolio/icons/icon-96x96.png?v=d3c57422ac1250ac35581aee7b347289"/><link rel="apple-touch-icon" sizes="144x144" href="/portfolio/icons/icon-144x144.png?v=d3c57422ac1250ac35581aee7b347289"/><link rel="apple-touch-icon" sizes="192x192" href="/portfolio/icons/icon-192x192.png?v=d3c57422ac1250ac35581aee7b347289"/><link rel="apple-touch-icon" sizes="256x256" href="/portfolio/icons/icon-256x256.png?v=d3c57422ac1250ac35581aee7b347289"/><link rel="apple-touch-icon" sizes="384x384" href="/portfolio/icons/icon-384x384.png?v=d3c57422ac1250ac35581aee7b347289"/><link rel="apple-touch-icon" sizes="512x512" href="/portfolio/icons/icon-512x512.png?v=d3c57422ac1250ac35581aee7b347289"/><link as="script" rel="preload" href="/portfolio/webpack-runtime-beddf0014e7daaabfd9d.js"/><link as="script" rel="preload" href="/portfolio/framework-c01ca20b9dee15d79bc4.js"/><link as="script" rel="preload" href="/portfolio/app-ea62465e1ecbe5ea3e85.js"/><link as="script" rel="preload" href="/portfolio/cb1608f2-801eec665c50cda637c5.js"/><link as="script" rel="preload" href="/portfolio/component---src-pages-index-js-b41b77dc3ae2ff627f30.js"/><link as="fetch" rel="preload" href="/portfolio/page-data/index/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/portfolio/page-data/sq/d/1203315256.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/portfolio/page-data/sq/d/2154440070.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/portfolio/page-data/sq/d/2434342303.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/portfolio/page-data/sq/d/63159454.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/portfolio/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="App"><ul><li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Girgetto">GitHub</a></li><li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/__Giorgio_">Twitter</a></li><li><a target="_blank" rel="noopener noreferrer" href="https://girgetto-io.netlify.com">Girgetto.io</a></li><li><a target="_blank" rel="noopener noreferrer" href="https://dev.to/girgetto">dev.to</a></li></ul><header class="portfolio-header row"><svg width="100%" height="275" fill="none" xmlns="http://www.w3.org/2000/svg" class="background"><path d="M373.301 221.499C101.44 167.998 137.617 255.738 0 275V0H1385C1257.32 71.9618 645.161 275 373.301 221.499Z" fill="#8BC34A"></path></svg><div class="container header-presentation"><img src="https://avatars3.githubusercontent.com/u/33903092?s=460&amp;u=6184ecd306816175a754a42d871329f02d457272&amp;v=4" class="profile-logo" alt="logo"/><h1 class="portfolio-title">Giorgio Grassini</h1><h2 class="header-job-title">Fullstack Developer</h2></div></header><div class="container about about-flex row"><div class="left"><h1 class="about-title">About me</h1><p class="description">I&#x27;m a Full stack developer based in Madrid📍, born and raised in italy 🇮🇹<br/>Currently working at<!-- --> <a target="blank" href="https://www.guidesmiths.com/">DCSL Guidesmiths</a> <!-- -->💻 full time, giving classes at<!-- --> <a target="blank" href="https://www.thebridge.tech/">The Bridge</a> <!-- -->part time 📚</p></div><svg width="501" height="215" viewBox="0 0 501 215" fill="none" xmlns="http://www.w3.org/2000/svg" class="right"><g clip-path="url(#clip0)"><path d="M109.966 119.944C109.971 119.284 109.84 118.63 109.581 118.023C109.322 117.416 108.941 116.869 108.461 116.417C107.982 115.964 107.415 115.615 106.795 115.392C106.175 115.169 105.516 115.076 104.859 115.12C104.202 115.163 103.56 115.342 102.975 115.645C102.39 115.948 101.873 116.368 101.458 116.88C101.042 117.392 100.736 117.984 100.559 118.62C100.382 119.256 100.338 119.921 100.429 120.575L86.662 138.637C86.0745 139.814 85.8468 141.139 86.0072 142.445C86.1677 143.751 86.7093 144.981 87.5642 145.98L88.6441 147.242L93.5991 146.249L99.2151 141.285L98.5543 135.658L105.492 124.736L105.483 124.729C106.697 124.651 107.836 124.113 108.669 123.225C109.502 122.336 109.966 121.163 109.966 119.944Z" fill="#FFB9B9"></path><path d="M14.7629 208.248L12.5156 199.886L43.6385 187.224L46.9552 199.565L14.7629 208.248Z" fill="#FFB8B8"></path><path d="M7.24562 212.563L-3.8147e-06 185.601L0.340378 185.509C3.11839 184.76 6.0797 185.147 8.57295 186.585C11.0662 188.023 12.8872 190.394 13.6354 193.178L13.6356 193.178L18.0609 209.646L7.24562 212.563Z" fill="#2F2E41"></path><path d="M57.6334 206.912L50.6433 201.819L66.9247 172.382L77.2417 179.899L57.6334 206.912Z" fill="#FFB8B8"></path><path d="M54.4887 215L31.9489 198.577L32.1562 198.292C33.8484 195.961 36.3954 194.399 39.2371 193.949C42.0788 193.499 44.9824 194.199 47.3092 195.894L47.3098 195.894L61.0763 205.925L54.4887 215Z" fill="#2F2E41"></path><path d="M117.054 165.776L99.4631 148.656C97.9279 147.162 95.9059 146.273 93.7689 146.154C91.6319 146.034 89.5236 146.691 87.8319 148.005L54.6183 184.972L57.5915 189.606L89.3045 168.093L110.777 196.225L131.258 185.965L117.054 165.776Z" fill="#2F2E41"></path><path d="M109.456 169.417L96.5722 168.424L87.242 166.158C86.715 165.334 85.9495 164.691 85.0478 164.316C84.1461 163.94 83.1513 163.849 82.1967 164.055C81.242 164.262 80.3731 164.755 79.7062 165.47C79.0392 166.185 78.6061 167.086 78.4649 168.055C78.3236 169.023 78.4809 170.011 78.9158 170.887C79.3506 171.763 80.0422 172.485 80.8979 172.957C81.7537 173.428 82.7328 173.626 83.7041 173.525C84.6754 173.423 85.5926 173.027 86.3329 172.389L86.3316 172.396L91.9475 174.712L116.063 182.987L119.036 180.67L109.456 169.417Z" fill="#FFB9B9"></path><path d="M140.508 205.162L133.241 209.795H124.651L84.6799 194.902L26.2087 205.493L24.557 192.915L78.0732 169.417L124.982 184.972L140.508 205.162Z" fill="#2F2E41"></path><path d="M124.982 124.736C132.097 124.736 137.866 118.957 137.866 111.829C137.866 104.7 132.097 98.9209 124.982 98.9209C117.867 98.9209 112.099 104.7 112.099 111.829C112.099 118.957 117.867 124.736 124.982 124.736Z" fill="#FFB9B9"></path><path d="M158.317 163.364C158.317 171.154 157.092 178.895 154.687 186.303L153.722 189.275L149.097 210.457L144.142 211.781L140.508 207.147L133.241 201.852L127.955 193.247L123.423 185.681L122.009 183.318L117.054 158.495L98.224 147.904L91.9475 146.911L93.2689 143.271L98.8848 135.658L104.501 134.996L106.152 133.673L107.474 134.334L114.758 137.146L138.374 127.149L141.83 127.715L153.722 137.644C156.762 145.877 158.318 154.585 158.317 163.364Z" fill="#CCCCCC"></path><path opacity="0.1" d="M154.713 160.481L142.16 168.755L123.423 185.68L122.009 183.318L118.045 163.46H119.036L129.277 144.595L154.713 160.481Z" fill="black"></path><path d="M129.277 142.609L119.036 161.474L113.09 168.093L107.804 169.417L122.009 184.972L142.16 166.769L154.713 158.495L129.277 142.609Z" fill="#CCCCCC"></path><path d="M132.565 95.5001C129.967 94.5715 116.5 96.5001 116.5 102C115.213 104.665 125 100 121.5 103.52C124.935 104.372 126.573 108.783 129.152 111.064L131.369 113.025C131.779 113.387 132.19 113.751 132.565 114.149C133.371 118.2 133.178 118.004 133.862 121.154C143.691 122.138 144.401 108.624 143.746 108.682C144.244 107.824 144.321 106.54 143.862 106.756C144.187 106.157 143.998 105.082 143.578 105.143C144.24 103.981 143.485 102.77 143.288 103.52C142.863 101.267 141.663 98.079 141.487 98.7384C140.965 97.939 139.684 97.1505 139.567 97.5558C137.579 95.6404 135.162 96.4287 132.565 95.5001Z" fill="#2F2E41"></path><path d="M131.424 115.635C132.701 115.635 133.736 114.598 133.736 113.318C133.736 112.038 132.701 111.001 131.424 111.001C130.147 111.001 129.111 112.038 129.111 113.318C129.111 114.598 130.147 115.635 131.424 115.635Z" fill="#FFB9B9"></path><path d="M23.5872 58.6007L22.8815 69.2169L33.4778 69.9239L34.1835 59.3077L23.5872 58.6007Z" fill="#E6E6E6"></path><path d="M16.7505 64.2379L29.6174 65.0964L28.7605 77.9875L15.8936 77.129L16.7505 64.2379ZM29.0207 65.6196L17.2727 64.8357L16.4903 76.6058L28.2383 77.3897L29.0207 65.6196Z" fill="#CCCCCC"></path><path d="M83.4685 27.1204L73.0857 29.3556L75.3166 39.7579L85.6994 37.5227L83.4685 27.1204Z" fill="#E6E6E6"></path><path d="M76.181 22.082L78.89 34.7134L66.2823 37.4275L63.5733 24.7961L76.181 22.082ZM78.224 34.2822L75.7506 22.7492L64.2393 25.2273L66.7127 36.7603L78.224 34.2822Z" fill="#CCCCCC"></path><path d="M72.5586 77.0761L64.808 84.3496L72.0678 92.1149L79.8185 84.8414L72.5586 77.0761Z" fill="#E6E6E6"></path><path d="M80.3758 75.988L70.9643 84.8201L62.1487 75.3908L71.5603 66.5587L80.3758 75.988ZM70.9902 84.0261L79.5833 75.962L71.5343 67.3527L62.9412 75.4168L70.9902 84.0261Z" fill="#CCCCCC"></path><path d="M473.379 0H159.17C158.034 -1.29312e-06 156.909 0.224115 155.86 0.659552C154.811 1.09499 153.858 1.73322 153.054 2.5378C152.251 3.34238 151.614 4.29757 151.18 5.34881C150.745 6.40005 150.521 7.52676 150.521 8.66461V184.065C150.521 185.203 150.745 186.33 151.18 187.381C151.614 188.432 152.251 189.388 153.054 190.192C153.858 190.997 154.811 191.635 155.86 192.07C156.909 192.506 158.034 192.73 159.17 192.73H473.379C475.672 192.73 477.872 191.817 479.494 190.192C481.116 188.567 482.027 186.363 482.027 184.065V8.66461C482.027 6.36661 481.116 4.16274 479.494 2.53781C477.872 0.912878 475.672 1.30579e-06 473.379 0Z" fill="#3F3D56"></path><path d="M470.432 15.3127H162.116V189.562H470.432V15.3127Z" fill="white"></path><path d="M316.011 10.5606C317.757 10.5606 319.173 9.14213 319.173 7.3924C319.173 5.64268 317.757 4.22424 316.011 4.22424C314.264 4.22424 312.848 5.64268 312.848 7.3924C312.848 9.14213 314.264 10.5606 316.011 10.5606Z" fill="white"></path><path d="M382.259 189.562H162.116V15.3131L382.259 189.562Z" fill="#F2F2F2"></path><path d="M210.358 176.523C226.726 176.523 239.995 163.229 239.995 146.831C239.995 130.432 226.726 117.139 210.358 117.139C193.991 117.139 180.722 130.432 180.722 146.831C180.722 163.229 193.991 176.523 210.358 176.523Z" fill="#BEF67A"></path><path d="M216.956 169.147C209.665 169.147 202.537 166.981 196.475 162.923C190.412 158.864 185.687 153.096 182.897 146.347C180.107 139.598 179.377 132.172 180.799 125.008C182.222 117.843 185.733 111.262 190.889 106.097C196.044 100.931 202.613 97.4138 209.764 95.9887C216.915 94.5636 224.327 95.2951 231.063 98.0905C237.799 100.886 243.557 105.62 247.608 111.694C251.658 117.767 253.82 124.908 253.82 132.213C253.82 137.063 252.867 141.866 251.014 146.347C249.162 150.828 246.446 154.9 243.023 158.329C239.6 161.759 235.536 164.48 231.063 166.336C226.591 168.192 221.797 169.147 216.956 169.147ZM216.956 95.7618C209.76 95.7618 202.726 97.8997 196.743 101.905C190.759 105.91 186.096 111.603 183.342 118.264C180.589 124.924 179.868 132.253 181.272 139.324C182.676 146.395 186.141 152.89 191.229 157.988C196.317 163.086 202.8 166.557 209.858 167.964C216.915 169.37 224.231 168.649 230.879 165.89C237.527 163.131 243.209 158.459 247.207 152.464C251.205 146.47 253.338 139.422 253.338 132.213C253.338 127.426 252.397 122.686 250.569 118.264C248.741 113.841 246.061 109.823 242.682 106.438C239.304 103.053 235.293 100.368 230.879 98.5365C226.465 96.7047 221.734 95.7619 216.956 95.7619L216.956 95.7618Z" fill="#3F3D56"></path><path d="M399.058 105.84H370.258V111.869H399.058V105.84Z" fill="#3F3D56"></path><path d="M426.305 73.1764H343.01V75.7604H426.305V73.1764Z" fill="#3F3D56"></path><path d="M426.305 83.3284H343.01V85.9123H426.305V83.3284Z" fill="#3F3D56"></path><path d="M426.305 93.4803H343.01V96.0643H426.305V93.4803Z" fill="#3F3D56"></path><path d="M448.619 25.7408H436.583V37.7993H448.619V25.7408Z" fill="#8BC34A"></path><path d="M454.207 43.398H439.592V28.7555H454.207V43.398ZM440.227 42.7614H453.571V29.3921H440.227L440.227 42.7614Z" fill="#CCCCCC"></path><path d="M490.684 186.394H460.594V184.222C460.594 184.165 460.583 184.109 460.561 184.057C460.54 184.005 460.508 183.957 460.468 183.917C460.428 183.877 460.381 183.845 460.329 183.824C460.276 183.802 460.221 183.791 460.164 183.791H449.848C449.791 183.791 449.735 183.802 449.683 183.824C449.631 183.845 449.584 183.877 449.544 183.917C449.504 183.957 449.472 184.005 449.45 184.057C449.429 184.109 449.418 184.165 449.418 184.222V186.394H442.97V184.222C442.97 184.165 442.959 184.109 442.937 184.057C442.916 184.005 442.884 183.957 442.844 183.917C442.804 183.877 442.757 183.845 442.705 183.824C442.653 183.802 442.597 183.791 442.54 183.791H432.224C432.167 183.791 432.111 183.802 432.059 183.824C432.007 183.845 431.96 183.877 431.92 183.917C431.88 183.957 431.848 184.005 431.827 184.057C431.805 184.109 431.794 184.165 431.794 184.222V186.394H425.346V184.222C425.346 184.165 425.335 184.109 425.313 184.057C425.292 184.005 425.26 183.957 425.22 183.917C425.18 183.877 425.133 183.845 425.081 183.824C425.029 183.802 424.973 183.791 424.916 183.791H414.6C414.543 183.791 414.487 183.802 414.435 183.824C414.383 183.845 414.336 183.877 414.296 183.917C414.256 183.957 414.224 184.005 414.203 184.057C414.181 184.109 414.17 184.165 414.17 184.222V186.394H407.722V184.222C407.722 184.165 407.711 184.109 407.69 184.057C407.668 184.005 407.636 183.957 407.596 183.917C407.556 183.877 407.509 183.845 407.457 183.824C407.405 183.802 407.349 183.791 407.292 183.791H396.976C396.919 183.791 396.864 183.802 396.811 183.824C396.759 183.845 396.712 183.877 396.672 183.917C396.632 183.957 396.6 184.005 396.579 184.057C396.557 184.109 396.546 184.165 396.546 184.222V186.394H390.098V184.222C390.098 184.165 390.087 184.109 390.066 184.057C390.044 184.005 390.012 183.957 389.972 183.917C389.933 183.877 389.885 183.845 389.833 183.824C389.781 183.802 389.725 183.791 389.668 183.791H379.352C379.296 183.791 379.24 183.802 379.188 183.824C379.135 183.845 379.088 183.877 379.048 183.917C379.008 183.957 378.977 184.005 378.955 184.057C378.933 184.109 378.922 184.165 378.922 184.222V186.394H372.474V184.222C372.474 184.165 372.463 184.109 372.442 184.057C372.42 184.005 372.388 183.957 372.348 183.917C372.309 183.877 372.261 183.845 372.209 183.824C372.157 183.802 372.101 183.791 372.045 183.791H361.728C361.672 183.791 361.616 183.802 361.564 183.824C361.511 183.845 361.464 183.877 361.424 183.917C361.384 183.957 361.353 184.005 361.331 184.057C361.309 184.109 361.298 184.165 361.298 184.222V186.394H354.851V184.222C354.851 184.165 354.839 184.109 354.818 184.057C354.796 184.005 354.764 183.957 354.725 183.917C354.685 183.877 354.637 183.845 354.585 183.824C354.533 183.802 354.477 183.791 354.421 183.791H273.609C273.552 183.791 273.496 183.802 273.444 183.824C273.392 183.845 273.344 183.877 273.305 183.917C273.265 183.957 273.233 184.005 273.211 184.057C273.19 184.109 273.179 184.165 273.179 184.222V186.394H266.731V184.222C266.731 184.165 266.72 184.109 266.698 184.057C266.677 184.005 266.645 183.957 266.605 183.917C266.565 183.877 266.518 183.845 266.466 183.824C266.413 183.802 266.357 183.791 266.301 183.791H255.985C255.928 183.791 255.872 183.802 255.82 183.824C255.768 183.845 255.721 183.877 255.681 183.917C255.641 183.957 255.609 184.005 255.587 184.057C255.566 184.109 255.555 184.165 255.555 184.222V186.394H249.107V184.222C249.107 184.165 249.096 184.109 249.074 184.057C249.053 184.005 249.021 183.957 248.981 183.917C248.941 183.877 248.894 183.845 248.842 183.824C248.79 183.802 248.734 183.791 248.677 183.791H238.361C238.304 183.791 238.248 183.802 238.196 183.824C238.144 183.845 238.097 183.877 238.057 183.917C238.017 183.957 237.985 184.005 237.964 184.057C237.942 184.109 237.931 184.165 237.931 184.222V186.394H231.483V184.222C231.483 184.165 231.472 184.109 231.45 184.057C231.429 184.005 231.397 183.957 231.357 183.917C231.317 183.877 231.27 183.845 231.218 183.824C231.166 183.802 231.11 183.791 231.053 183.791H220.737C220.68 183.791 220.624 183.802 220.572 183.824C220.52 183.845 220.473 183.877 220.433 183.917C220.393 183.957 220.361 184.005 220.34 184.057C220.318 184.109 220.307 184.165 220.307 184.222V186.394H213.859V184.222C213.859 184.165 213.848 184.109 213.826 184.057C213.805 184.005 213.773 183.957 213.733 183.917C213.693 183.877 213.646 183.845 213.594 183.824C213.542 183.802 213.486 183.791 213.429 183.791H203.113C203.056 183.791 203.001 183.802 202.948 183.824C202.896 183.845 202.849 183.877 202.809 183.917C202.769 183.957 202.737 184.005 202.716 184.057C202.694 184.109 202.683 184.165 202.683 184.222V186.394H196.235V184.222C196.235 184.165 196.224 184.109 196.203 184.057C196.181 184.005 196.149 183.957 196.109 183.917C196.069 183.877 196.022 183.845 195.97 183.824C195.918 183.802 195.862 183.791 195.805 183.791H185.489C185.375 183.791 185.266 183.836 185.185 183.917C185.104 183.998 185.059 184.107 185.059 184.222V186.394H178.611V184.222C178.611 184.165 178.6 184.109 178.579 184.057C178.557 184.005 178.525 183.957 178.485 183.917C178.446 183.877 178.398 183.845 178.346 183.824C178.294 183.802 178.238 183.791 178.181 183.791H167.865C167.751 183.791 167.642 183.836 167.561 183.917C167.48 183.998 167.435 184.107 167.435 184.222V186.394H147.662C144.926 186.394 142.302 187.483 140.367 189.421C138.432 191.359 137.346 193.988 137.346 196.73V201.403C137.346 204.144 138.432 206.773 140.367 208.712C142.302 210.65 144.926 211.739 147.662 211.739H490.684C493.42 211.739 496.044 210.65 497.978 208.712C499.913 206.773 501 204.144 501 201.403V196.73C501 195.372 500.733 194.028 500.215 192.774C499.696 191.52 498.936 190.381 497.978 189.421C497.02 188.461 495.883 187.7 494.632 187.18C493.38 186.661 492.038 186.394 490.684 186.394Z" fill="#3F3D56"></path><circle cx="138" cy="93" r="6" fill="#2F2E41"></circle></g><defs><clipPath id="clip0"><rect width="501" height="215" fill="white"></rect></clipPath></defs></svg></div><div class="flex space row"><div class="container"><svg width="650" height="498" viewBox="0 0 650 498" fill="none" xmlns="http://www.w3.org/2000/svg" class="bubble"><path d="M635.893 92.3665C671.335 198.091 635.893 218.229 517.415 346.105C398.937 473.981 307.8 487.071 307.8 487.071C307.8 487.071 216.663 502.174 158.943 495.126C101.223 488.078 62.7425 462.905 62.7425 462.905L14.3892 416.588C14.3892 416.588 -15.7365 383.36 14.3892 297.774C44.515 212.188 107.298 143.719 107.298 143.719C184.259 22.8905 223.751 1.74606 367.545 1.74587C511.34 1.74569 600.451 -13.3578 635.893 92.3665Z" fill="#8BC34A" stroke="black"></path></svg><h1>My Posts</h1><div class="post-content"><span id="point-right">👉 </span><a class="post-link" href="https://girgetto-io.netlify.com/vscode-extensions/" target="_blank" rel="noopener">💻 5 Useful VS Code extensions to help you with Javascript, React and Git</a></div><div class="post-content"><span id="point-right">👉 </span><a class="post-link" href="https://girgetto-io.netlify.com/systemic/" target="_blank" rel="noopener">Systemic: the silver bullet to develop perfect microservices in Node.JS.</a></div><div class="post-content"><span id="point-right">👉 </span><a class="post-link" href="https://girgetto-io.netlify.com/hacktoberfest2020/" target="_blank" rel="noopener">Hacktoberfest 2020</a></div><div class="post-content"><span id="point-right">👉 </span><a class="post-link" href="https://girgetto-io.netlify.com/reduce/" target="_blank" rel="noopener">Reduce</a></div><div class="post-content"><span id="point-right">👉 </span><a class="post-link" href="https://girgetto-io.netlify.com/uncomunicative-name/" target="_blank" rel="noopener">Uncommunicative name</a></div><div class="post-content"><span id="point-right">👉 </span><a class="post-link" href="https://girgetto-io.netlify.com/shotgun-surgery/" target="_blank" rel="noopener">Shotgun surgery</a></div></div><div class="container"><h1>My Videos</h1><div class="video-content"><a href="https://www.youtube.com/watch?v=PDJKXpEtIuA" target="_blank" rel="noopener"><img class="video-image" src="https://i1.ytimg.com/vi/PDJKXpEtIuA/hqdefault.jpg" alt="video"/>React JS | To Do List | Speed Coding</a></div><div class="video-content"><a href="https://www.youtube.com/watch?v=OPfaCowjGMc" target="_blank" rel="noopener"><img class="video-image" src="https://i4.ytimg.com/vi/OPfaCowjGMc/hqdefault.jpg" alt="video"/>React JS | Calculator | Speed Coding</a></div></div></div><div class="container row"><h1 class="title">My Github projects</h1><ol><li><div class="box"><div><b><a href="https://github.com/Girgetto/portfolio" target="_blank" rel="noopener noreferrer">portfolio</a></b><p class="description">My portfolio ⚛️ </p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#f1e05a"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>JavaScript</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>1</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>0</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/gatsby-plugin-parse-rss" target="_blank" rel="noopener noreferrer">gatsby-plugin-parse-rss</a></b><p class="description">Gatsby plugin in to parse rss</p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#f1e05a"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>JavaScript</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>0</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>0</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/omida" target="_blank" rel="noopener noreferrer">omida</a></b><p class="description">Consultants used in identifying real estate investments dedicated to accommodation facilities and farms of significant importance in Tuscany.</p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#e34c26"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>HTML</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>0</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>0</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/personal-blog" target="_blank" rel="noopener noreferrer">personal-blog</a></b><p class="description">My personal blog</p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#f1e05a"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>JavaScript</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>0</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>0</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/leaflet-exercise" target="_blank" rel="noopener noreferrer">leaflet-exercise</a></b><p class="description"></p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#e34c26"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>HTML</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>0</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>1</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/promises-exercise" target="_blank" rel="noopener noreferrer">promises-exercise</a></b><p class="description"></p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#e34c26"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>HTML</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>1</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>1</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/restcountries-api" target="_blank" rel="noopener noreferrer">restcountries-api</a></b><p class="description"></p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#e34c26"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>HTML</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>0</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>1</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/gs-wall" target="_blank" rel="noopener noreferrer">gs-wall</a></b><p class="description"></p></div><div class="box-footer"><div class="info"><div><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="color:#e34c26"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span>HTML</span></div></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>0</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>1</span></div></div></div></li><li><div class="box"><div><b><a href="https://github.com/Girgetto/Girgetto" target="_blank" rel="noopener noreferrer">Girgetto</a></b><p class="description"></p></div><div class="box-footer"><div class="info"></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><span>0</span></div><div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code-branch" class="svg-inline--fa fa-code-branch fa-w-12 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 36.4 24.3 67.1 57.5 76.8-.6 16.1-4.2 28.5-11 36.9-15.4 19.2-49.3 22.4-85.2 25.7-28.2 2.6-57.4 5.4-81.3 16.9v-144c32.5-10.2 56-40.5 56-76.3 0-44.2-35.8-80-80-80S0 35.8 0 80c0 35.8 23.5 66.1 56 76.3v199.3C23.5 365.9 0 396.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-34-21.2-63.1-51.2-74.6 3.1-5.2 7.8-9.8 14.9-13.4 16.2-8.2 40.4-10.4 66.1-12.8 42.2-3.9 90-8.4 118.2-43.4 14-17.4 21.1-39.8 21.6-67.9 31.6-10.8 54.4-40.7 54.4-75.9zM80 64c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16zm0 384c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zm224-320c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z"></path></svg><span>0</span></div></div></div></li></ol></div><footer class="container"><p>©Giorgio Grassini <!-- -->2021</p></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-94BPMNJK7N"></script><script>
+      
+      
+      if(true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer && window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-94BPMNJK7N', {"send_page_view":false});
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2653050a4f392a29c9cd.js"],"app":["/app-ea62465e1ecbe5ea3e85.js"],"component---src-pages-404-js":["/component---src-pages-404-js-f36782409f62de110c1a.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b41b77dc3ae2ff627f30.js"],"component---src-pages-privacy-policy-js":["/component---src-pages-privacy-policy-js-a4ce9f4f21239a3881d6.js"]};/*]]>*/</script><script src="/portfolio/polyfill-2653050a4f392a29c9cd.js" nomodule=""></script><script src="/portfolio/component---src-pages-index-js-b41b77dc3ae2ff627f30.js" async=""></script><script src="/portfolio/cb1608f2-801eec665c50cda637c5.js" async=""></script><script src="/portfolio/app-ea62465e1ecbe5ea3e85.js" async=""></script><script src="/portfolio/framework-c01ca20b9dee15d79bc4.js" async=""></script><script src="/portfolio/webpack-runtime-beddf0014e7daaabfd9d.js" async=""></script></body></html>
